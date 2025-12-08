@@ -1,4 +1,4 @@
-import ConnectionsPanel from "./ui/ConnectionsPanel";
+import ConnectionsPanel from "@/app/ui/lsofPanel";
 
 interface Connection {
   command: string;

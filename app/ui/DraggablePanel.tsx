@@ -1,95 +1,178 @@
-"use client";
+"use client"; // telling nextjs to use client components
 
-import { useState, useRef, useCallback, ReactNode } from "react";
 
-interface DraggablePanelProps {
-  children: ReactNode;
-  title?: string;
-  defaultPosition?: { x: number; y: number };
-  defaultSize?: { width: number; height: number };
-}
+// useRef seems to be a way to store information without triggering a rerender
+// useEffect ??
+// useState update a variable/anything and trigger rerender
+import React, { useRef, useEffect, useState } from 'react';
 
-export default function DraggablePanel({
-  children,
-  title,
-  defaultPosition = { x: 40, y: 100 },
-  defaultSize = { width: 800, height: 400 },
-}: DraggablePanelProps) {
-  const [position, setPosition] = useState(defaultPosition);
-  const [size, setSize] = useState(defaultSize);
-  const [isDragging, setIsDragging] = useState(false);
-  const [isResizing, setIsResizing] = useState(false);
-  const dragOffset = useRef({ x: 0, y: 0 });
-  const panelRef = useRef<HTMLDivElement>(null);
+// Alright so 'children' is a prop
+// it seems that "props" are arguments to other components
+// So essentially we take 
+// So essentially <component> prop/function argument <component/>
+export	const Draggable = ({ children }: { children: React.ReactNode }) => {
+	const boxRef = useRef<HTMLDivElement>(null);
+	const [isDragging, setIsDragging] = useState(false);
+	const [isResizing, setIsResizing] = useState(false); // similar to isDragging but for resize
+	const [pos, setPos] = useState({ x: 100, y: 100 }); // starting position
+	const [size, setSize] = useState({ width: 800, height: 400});
 
-  const handleMouseDown = useCallback((e: React.MouseEvent) => {
-    if ((e.target as HTMLElement).classList.contains("panel-header")) {
-      setIsDragging(true);
-      dragOffset.current = {
-        x: e.clientX - position.x,
-        y: e.clientY - position.y,
-      };
-    }
-  }, [position]);
+	// These will store the offset from click → box corner
+	const offset = useRef({ x: 0, y: 0 });
+	// Store the initial size and mouse position when resize starts
+	const resizeStart = useRef({ mouseX: 0, mouseY: 0, width: 0, height: 0 });
 
-  const handleResizeMouseDown = useCallback((e: React.MouseEvent) => {
-    e.stopPropagation();
-    setIsResizing(true);
-    dragOffset.current = {
-      x: e.clientX,
-      y: e.clientY,
-    };
-  }, []);
+	const onMouseDown = (e: React.MouseEvent) => {
+		if (!boxRef.current) return;
 
-  const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    if (isDragging) {
-      setPosition({
-        x: e.clientX - dragOffset.current.x,
-        y: e.clientY - dragOffset.current.y,
-      });
-    } else if (isResizing) {
-      const deltaX = e.clientX - dragOffset.current.x;
-      const deltaY = e.clientY - dragOffset.current.y;
-      setSize((prev) => ({
-        width: Math.max(300, prev.width + deltaX),
-        height: Math.max(200, prev.height + deltaY),
-      }));
-      dragOffset.current = { x: e.clientX, y: e.clientY };
-    }
-  }, [isDragging, isResizing]);
+		// So this is a state change this is a useState state change so this triggers a rerender
+		setIsDragging(true);
 
-  const handleMouseUp = useCallback(() => {
-    setIsDragging(false);
-    setIsResizing(false);
-  }, []);
+		// How far inside the box did they click?
+		const rect = boxRef.current.getBoundingClientRect();
+		offset.current = {
+			x: e.clientX - rect.left,
+			y: e.clientY - rect.top,
+		};
 
-  return (
-    <div
-      ref={panelRef}
-      className="draggable-panel"
-      style={{
-        left: position.x,
-        top: position.y,
-        width: size.width,
-        height: size.height,
-      }}
-      onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp}
-    >
-      <div className="panel-header" onMouseDown={handleMouseDown}>
-        <span className="panel-indicator" />
-        {title && <span className="panel-title">{title}</span>}
-        <div className="panel-controls">
-          <span className="panel-btn" />
-          <span className="panel-btn" />
-          <span className="panel-btn close" />
-        </div>
-      </div>
-      <div className="panel-content">
-        {children}
-      </div>
-      <div className="resize-handle" onMouseDown={handleResizeMouseDown} />
-    </div>
-  );
-}
+		// Prevent text selection while dragging
+		e.preventDefault();
+	};
+
+	// Similar to onMouseDown but for the resize handle
+	// We capture where the mouse started and what size the box was
+	const onResizeMouseDown = (e: React.MouseEvent) => {
+		setIsResizing(true);
+
+		// Store initial mouse position and current size
+		// We'll calculate the delta (change) from this starting point
+		resizeStart.current = {
+			mouseX: e.clientX,
+			mouseY: e.clientY,
+			width: size.width,
+			height: size.height,
+		};
+
+		// stopPropagation prevents the drag handler from also firing
+		// (since resize handle is inside the draggable div)
+		e.stopPropagation();
+		e.preventDefault();
+	};
+
+	useEffect(() => {
+		if (!isDragging) return;
+
+		const onMouseMove = (e: MouseEvent) => {
+			// setPos will trigger a rerender
+			setPos({
+				x: e.pageX - offset.current.x,
+				y: e.pageY - offset.current.y,
+			});
+		};
+
+		const onMouseUp = () => {
+			setIsDragging(false);
+		};
+
+		document.addEventListener('mousemove', onMouseMove);
+		document.addEventListener('mouseup', onMouseUp);
+
+		return () => {
+			document.removeEventListener('mousemove', onMouseMove);
+			document.removeEventListener('mouseup', onMouseUp);
+		};
+	}, [isDragging]);
+
+	// useEffect for resize - same pattern as drag!
+	// When isResizing becomes true, we attach listeners
+	// When it becomes false (mouseup), we clean them up
+	useEffect(() => {
+		if (!isResizing) return;
+
+		const onMouseMove = (e: MouseEvent) => {
+			// Calculate how far the mouse moved from where we started
+			const deltaX = e.clientX - resizeStart.current.mouseX;
+			const deltaY = e.clientY - resizeStart.current.mouseY;
+
+			// New size = original size + how far we dragged
+			// Math.max ensures minimum size (can't resize smaller than 200x150)
+			setSize({
+				width: Math.max(200, resizeStart.current.width + deltaX),
+				height: Math.max(150, resizeStart.current.height + deltaY),
+			});
+		};
+
+		const onMouseUp = () => {
+			setIsResizing(false);
+		};
+
+		document.addEventListener('mousemove', onMouseMove);
+		document.addEventListener('mouseup', onMouseUp);
+
+		return () => {
+			document.removeEventListener('mousemove', onMouseMove);
+			document.removeEventListener('mouseup', onMouseUp);
+		};
+	}, [isResizing]);
+
+	return (
+		<div
+			ref={boxRef}
+			onMouseDown={onMouseDown}
+			style={{
+				position: 'absolute',
+
+				// So notice that pos is a variable with the setPos and from the useState Hook so a rerender will occur with the new "pos" and that will change the pos.x and pos.y
+				left: pos.x,
+				top: pos.y,
+				// Note that isDragging is also a useState hook and will cause a rerender, though I'm not sure what "cursor" css thing is doing in the first place
+				// From MDM
+				// The cursor CSS property sets the mouse cursor, if any, to show when the mouse pointer is over an element
+				// Great! So this will determine when the cursor turns into a grab! Nice!
+				cursor: isDragging ? 'grabbing' : 'grab',
+				// So there's a similar "user-select" from real css from MDM so I'm assuming this will do the same
+				// Basically it sets if the text can be selected ... And we'll have to change this ... right now the text is never selectable and we want it sometimes selectable
+				userSelect: 'none',
+				// optional visual goodies
+				//padding: '20px',
+				//color: 'white',
+				//borderRadius: '8px',
+				//touchAction: 'none', // important for mobile
+				width: size.width,
+				height: size.height,
+
+			}}
+		>
+	
+			{/* So boom, right here we see "children" which is the component we are dragging */}
+			{children}
+
+			{/* Resize handle - positioned in bottom-right corner */}
+			{/* When you mousedown on this, it triggers resize instead of drag */}
+			<div
+				onMouseDown={onResizeMouseDown}
+				style={{
+					position: 'absolute',
+					bottom: 0,
+					right: 0,
+					width: 20,
+					height: 20,
+					cursor: 'se-resize', // se = southeast, the diagonal resize arrow
+					// Visual indicator - diagonal lines in the corner
+					background: `linear-gradient(
+						135deg,
+						transparent 50%,
+						var(--neon-cyan, #00f0ff) 50%,
+						var(--neon-cyan, #00f0ff) 60%,
+						transparent 60%,
+						transparent 70%,
+						var(--neon-cyan, #00f0ff) 70%,
+						var(--neon-cyan, #00f0ff) 80%,
+						transparent 80%
+					)`,
+					opacity: isResizing ? 1 : 0.7,
+				}}
+			/>
+		</div>
+	);
+};

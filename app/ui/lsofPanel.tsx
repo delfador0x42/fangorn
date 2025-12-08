@@ -1,6 +1,6 @@
 "use client";
 
-import DraggablePanel from "./DraggablePanel";
+import {Draggable} from "./DraggablePanel";
 
 interface Connection {
   command: string;
@@ -20,11 +20,7 @@ interface ConnectionsPanelProps {
 
 export default function ConnectionsPanel({ connections }: ConnectionsPanelProps) {
   return (
-    <DraggablePanel
-      title={`${connections.length} Active Connections`}
-      defaultPosition={{ x: 40, y: 40 }}
-      defaultSize={{ width: 900, height: 500 }}
-    >
+    <Draggable>
       <table className="cyber-table">
         <thead>
           <tr>
@@ -51,6 +47,6 @@ export default function ConnectionsPanel({ connections }: ConnectionsPanelProps)
           ))}
         </tbody>
       </table>
-    </DraggablePanel>
+    </Draggable>
   );
 }
