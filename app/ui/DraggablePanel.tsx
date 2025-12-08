@@ -8,14 +8,24 @@ import React, { useRef, useEffect, useState } from 'react';
 
 // Alright so 'children' is a prop
 // it seems that "props" are arguments to other components
-// So essentially we take 
+// So essentially we take
 // So essentially <component> prop/function argument <component/>
-export	const Draggable = ({ children }: { children: React.ReactNode }) => {
+
+// RENDER PROP PATTERN:
+// Instead of children being just JSX (React.ReactNode),
+// children is a FUNCTION that we call with the resize props.
+// This lets the consumer (lsofPanel) access onResizeMouseDown and isResizing!
+interface RenderProps {
+	onResizeMouseDown: (e: React.MouseEvent) => void;
+	isResizing: boolean;
+}
+
+export	const Draggable = ({ children }: { children: (props: RenderProps) => React.ReactNode }) => {
 	const boxRef = useRef<HTMLDivElement>(null);
 	const [isDragging, setIsDragging] = useState(false);
 	const [isResizing, setIsResizing] = useState(false); // similar to isDragging but for resize
 	const [pos, setPos] = useState({ x: 100, y: 100 }); // starting position
-	const [size, setSize] = useState({ width: 800, height: 400});
+	const [size, setSize] = useState({ width: 800, height: 40});
 
 	// These will store the offset from click → box corner
 	const offset = useRef({ x: 0, y: 0 });
@@ -143,36 +153,9 @@ export	const Draggable = ({ children }: { children: React.ReactNode }) => {
 
 			}}
 		>
-	
-			{/* So boom, right here we see "children" which is the component we are dragging */}
-			{children}
-
-			{/* Resize handle - positioned in bottom-right corner */}
-			{/* When you mousedown on this, it triggers resize instead of drag */}
-			<div
-				onMouseDown={onResizeMouseDown}
-				style={{
-					position: 'absolute',
-					bottom: 0,
-					right: 0,
-					width: 20,
-					height: 20,
-					cursor: 'se-resize', // se = southeast, the diagonal resize arrow
-					// Visual indicator - diagonal lines in the corner
-					background: `linear-gradient(
-						135deg,
-						transparent 50%,
-						var(--neon-cyan, #00f0ff) 50%,
-						var(--neon-cyan, #00f0ff) 60%,
-						transparent 60%,
-						transparent 70%,
-						var(--neon-cyan, #00f0ff) 70%,
-						var(--neon-cyan, #00f0ff) 80%,
-						transparent 80%
-					)`,
-					opacity: isResizing ? 1 : 0.7,
-				}}
-			/>
+			{/* Call children as a function, passing the resize props */}
+			{/* Now lsofPanel can use onResizeMouseDown and isResizing! */}
+			{children({ onResizeMouseDown, isResizing })}
 		</div>
 	);
 };
