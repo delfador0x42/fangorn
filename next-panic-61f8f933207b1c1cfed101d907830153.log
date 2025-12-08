@@ -1,0 +1,13 @@
+---------------------------
+Next.js package not found
+
+Debug info:
+- Execution of subscribe_issues_and_diags_operation failed
+- Execution of endpoint_server_changed_operation failed
+- Execution of pick_endpoint failed
+- Execution of entrypoints_without_collectibles_operation failed
+- Execution of Project::entrypoints failed
+- Execution of AppProject::routes failed
+- Execution of directory_tree_to_entrypoints_internal failed
+- Execution of directory_tree_to_loader_tree failed
+- Next.js package not found
