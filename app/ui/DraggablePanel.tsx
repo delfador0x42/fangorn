@@ -11,16 +11,9 @@ import React, { useRef, useEffect, useState } from 'react';
 // So essentially we take
 // So essentially <component> prop/function argument <component/>
 
-// RENDER PROP PATTERN:
-// Instead of children being just JSX (React.ReactNode),
-// children is a FUNCTION that we call with the resize props.
-// This lets the consumer (lsofPanel) access onResizeMouseDown and isResizing!
-interface RenderProps {
-	onResizeMouseDown: (e: React.MouseEvent) => void;
-	isResizing: boolean;
-}
-
-export	const Draggable = ({ children }: { children: (props: RenderProps) => React.ReactNode }) => {
+// Back to simple: children is just React.ReactNode
+// The panel wrapper and resize handle stay here in Draggable
+export const Draggable = ({ children }: { children: React.ReactNode }) => {
 	const boxRef = useRef<HTMLDivElement>(null);
 	const [isDragging, setIsDragging] = useState(false);
 	const [isResizing, setIsResizing] = useState(false); // similar to isDragging but for resize
@@ -131,31 +124,54 @@ export	const Draggable = ({ children }: { children: (props: RenderProps) => Reac
 			onMouseDown={onMouseDown}
 			style={{
 				position: 'absolute',
-
-				// So notice that pos is a variable with the setPos and from the useState Hook so a rerender will occur with the new "pos" and that will change the pos.x and pos.y
 				left: pos.x,
 				top: pos.y,
-				// Note that isDragging is also a useState hook and will cause a rerender, though I'm not sure what "cursor" css thing is doing in the first place
-				// From MDM
-				// The cursor CSS property sets the mouse cursor, if any, to show when the mouse pointer is over an element
-				// Great! So this will determine when the cursor turns into a grab! Nice!
-				cursor: isDragging ? 'grabbing' : 'grab',
-				// So there's a similar "user-select" from real css from MDM so I'm assuming this will do the same
-				// Basically it sets if the text can be selected ... And we'll have to change this ... right now the text is never selectable and we want it sometimes selectable
-				userSelect: 'none',
-				// optional visual goodies
-				//padding: '20px',
-				//color: 'white',
-				//borderRadius: '8px',
-				//touchAction: 'none', // important for mobile
 				width: size.width,
 				height: size.height,
-
+				// Panel styling - the outline/border
+				background: 'rgba(5, 15, 25, 0.95)',
+				border: '1px solid var(--neon-cyan, #00f0ff)',
+				boxShadow: '0 0 10px #00f0ff, 0 0 20px #00f0ff40, 0 0 40px rgba(0, 0, 0, 0.5)',
+				display: 'flex',
+				flexDirection: 'column' as const,
+				cursor: isDragging ? 'grabbing' : 'grab',
+				userSelect: 'none',
 			}}
 		>
-			{/* Call children as a function, passing the resize props */}
-			{/* Now lsofPanel can use onResizeMouseDown and isResizing! */}
-			{children({ onResizeMouseDown, isResizing })}
+			{/* Panel content area - children go here */}
+			<div style={{
+				flex: 1,
+				overflow: 'auto',
+				padding: 15,
+				cursor: 'default', // reset cursor for content area
+			}}>
+				{children}
+			</div>
+
+			{/* Resize handle - bottom right of the panel */}
+			<div
+				onMouseDown={onResizeMouseDown}
+				style={{
+					position: 'absolute',
+					bottom: 0,
+					right: 0,
+					width: 20,
+					height: 20,
+					cursor: 'se-resize',
+					background: `linear-gradient(
+						135deg,
+						transparent 50%,
+						var(--neon-cyan, #00f0ff) 50%,
+						var(--neon-cyan, #00f0ff) 60%,
+						transparent 60%,
+						transparent 70%,
+						var(--neon-cyan, #00f0ff) 70%,
+						var(--neon-cyan, #00f0ff) 80%,
+						transparent 80%
+					)`,
+					opacity: isResizing ? 1 : 0.7,
+				}}
+			/>
 		</div>
 	);
 };
