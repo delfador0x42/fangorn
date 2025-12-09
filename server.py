@@ -87,7 +87,7 @@ app = fastapi.FastAPI()
 def send_stuff():
 	return {"id": "Hello From the Server"}
 
-@app.get("/test_endpoint")
+@app.get("/lsof_endpoint")
 def get_connections():
 	return {
 		"connections": [

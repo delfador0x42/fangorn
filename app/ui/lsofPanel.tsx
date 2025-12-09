@@ -1,24 +1,12 @@
 "use client";
 
-import {Draggable} from "./DraggablePanel";
+import { Draggable } from "./DraggablePanel";
 
-interface Connection {
-  command: string;
-  pid: string;
-  user: string;
-  fd: string;
-  type: string;
-  device: string;
-  size_offset: string;
-  node: string;
-  name: string;
-}
+// So this ConnectionsPanelProps is a type
+import { connectionspanelprops } from "./get_lsof_data";
 
-interface ConnectionsPanelProps {
-  connections: Connection[];
-}
-
-export default function ConnectionsPanel({ connections }: ConnectionsPanelProps) {
+// Basically think of this as a function getting called that takes argument "connections" that is of type "ConnectionsPanelProps"
+export default function ConnectionsPanel({ connections }: connectionspanelprops) {
   return (
     // Simple: just pass the table as children
     // Draggable handles the panel outline and resize handle
