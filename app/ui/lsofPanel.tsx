@@ -14,25 +14,25 @@ export default function ConnectionsPanel({ connections }: connectionspanelprops)
       <table className="cyber-table">
         <thead>
           <tr>
-            <th>Command</th>
+            <th className="text-left">Command</th>
             <th>PID</th>
             <th>User</th>
             <th>FD</th>
             <th>Type</th>
             <th>Node</th>
-            <th>Name</th>
+            <th className="text-left">Name</th>
           </tr>
         </thead>
         <tbody>
           {connections.map((conn, idx) => (
             <tr key={idx}>
-              <td>{conn.command}</td>
+              <td className="text-left">{conn.command}</td>
               <td>{conn.pid}</td>
               <td>{conn.user}</td>
               <td>{conn.fd}</td>
               <td>{conn.type}</td>
               <td>{conn.node}</td>
-              <td>{conn.name}</td>
+              <td className="text-left">{conn.name}</td>
             </tr>
           ))}
         </tbody>

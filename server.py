@@ -1,107 +1,176 @@
+from __future__ import annotations
+
 import subprocess
+from dataclasses import dataclass
+from typing import List
 
-process_connections = []
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
-class lsof_line :
-	def __init__(
-		self,
-		command: str,
-		pid: str,
-		user: str,
-		fd: str,
-		type: str,
-		device: str,
-		size_offset: str,
-		node: str,
-		name) -> None :
+from macos_system_daemons import MACOS_PROBABLY_KNOWN_SYSTEM_DAEMONS
 
 
-		self.command = command
-		self.pid = pid
-		self.user = user
-		self.fd = fd
-		self.type = type
-		self.device = device
-		self.size_offset = size_offset
-		self.node = node
-		self.name = name
+# Example usage
+def is_known_system_process(path_or_name: str) -> bool:
+	return path_or_name in MACOS_PROBABLY_KNOWN_SYSTEM_DAEMONS
+
+# Extremely fast — frozenset lookup is basically instant
+if is_known_system_process("/sbin/launchd"):
+	print("Safe system daemon")
 
 
-def parse_lsof(output: str) :
-	for line in output.splitlines() :
-		fields = line.split()
-		if fields[0] == "COMMAND" : 
+app = FastAPI(title="System Info API")
+
+
+# ======================
+# Data Models
+# ======================
+
+@dataclass
+class LsofEntry:
+	command: str
+	pid: str
+	user: str
+	fd: str
+	type: str
+	device: str
+	size_offset: str
+	node: str
+	name: str
+
+
+@dataclass
+class ProcessEntry:
+	pid: str
+	cmd: str
+	safe: str
+
+
+class LsofResponse(BaseModel):
+	connections: List[dict]
+
+
+class ProcessListResponse(BaseModel):
+	process_list: List[dict]
+
+
+# ======================
+# Parsers
+# ======================
+
+def parse_lsof_output(output: str) -> List[LsofEntry]:
+	entries = []
+	lines = output.strip().splitlines()
+
+	for line in lines:
+		if not line or line.startswith("COMMAND"):
 			continue
-			print(fields[0])	
-		# Fixed fields (indices 0–7)
-		command  = fields[0]
-		print(command)
-		pid	  = fields[1]
-		user	 = fields[2]
-		fd	   = fields[3]
-		type_	= fields[4]
-		device   = fields[5]
-		size_offset  = fields[6]
-		node	 = fields[7]
 
-		# Everything from index 8 onward is the NAME (may contain spaces!)
-		name	 = " ".join(fields[8:])
+		fields = line.split(maxsplit=8)  # Only split into 9 parts max
+		if len(fields) < 9:
+			continue  # Malformed line
 
-		# Create and store the object
-		obj = lsof_line(
-		command=command,
-		pid=pid,
-		user=user,
-		fd=fd,
-		type=type_,
-		device=device,
-		size_offset=size_offset,
-		node=node,
-		name=name
+		name = fields[8] if len(fields) > 8 else ""
+		entries.append(LsofEntry(
+			command=fields[0],
+			pid=fields[1],
+			user=fields[2],
+			fd=fields[3],
+			type=fields[4],
+			device=fields[5],
+			size_offset=fields[6],
+			node=fields[7],
+			name=name,
+		))
+
+	return entries
+
+	
+def parse_ps_output(output: str) -> List[ProcessEntry]:
+	entries = []
+	lines = output.strip().splitlines()
+
+	for line in lines:
+		if not line or line.startswith("PID"):
+			continue
+
+		fields = line.split(maxsplit=3)  # PID TTY TIME CMD → we want CMD as rest
+		if len(fields) < 4:
+			continue
+
+		#print(fields[3])
+		#print(is_known_system_process(fields[3]))
+		entries.append(ProcessEntry(
+			pid=fields[0],
+			cmd=fields[3],
+			safe=is_known_system_process(fields[3])
+		))
+
+	return entries
+
+
+# ======================
+# Helper to run commands safely
+# ======================
+
+def run_command(cmd: List[str]) -> str:
+	try:
+		result = subprocess.run(
+			cmd,
+			capture_output=True,
+			text=True,
+			check=True,
+			timeout=30,
 		)
-		print()
-		process_connections.append(obj)
+		return result.stdout
+	except subprocess.CalledProcessError as e:
+		raise HTTPException(status_code=500, detail=f"Command failed: {e}")
+	except subprocess.TimeoutExpired:
+		raise HTTPException(status_code=500, detail="Command timed out")
+	except FileNotFoundError:
+		raise HTTPException(status_code=500, detail=f"Command not found: {' '.join(cmd)}")
 
 
+# ======================
+# Routes
+# ======================
+
+@app.get("/", tags=["info"])
+def root():
+	return {"message": "System info server is running", "endpoints": ["/lsof_endpoint", "/ps_endpoint"]}
 
 
-presult = subprocess.run("lsof -Pni", shell=True, capture_output=True)
+@app.get("/lsof_endpoint", response_model=LsofResponse, tags=["system"])
+def get_lsof_connections():
+	output = run_command(["lsof", "-Pni"])
+	connections = parse_lsof_output(output)
 
-
-match presult.returncode : 
-	case 0 :
-		output = presult.stdout.decode('utf-8')
-		parse_lsof(output)
-		print(process_connections[0].command)
-	case _ :
-		print("failure")
-
-
-
-import fastapi
-
-
-app = fastapi.FastAPI()
-
-@app.get("/")
-def send_stuff():
-	return {"id": "Hello From the Server"}
-
-@app.get("/lsof_endpoint")
-def get_connections():
 	return {
 		"connections": [
 			{
-				"command": conn.command,
-				"pid": conn.pid,
-				"user": conn.user,
-				"fd": conn.fd,
-				"type": conn.type,
-				"device": conn.device,
-				"size_offset": conn.size_offset,
-				"node": conn.node,
-				"name": conn.name
+				"command": c.command,
+				"pid": c.pid,
+				"user": c.user,
+				"fd": c.fd,
+				"type": c.type,
+				"device": c.device,
+				"size_offset": c.size_offset,
+				"node": c.node,
+				"name": c.name,
 			}
-			for conn in process_connections
+			for c in connections
+		]
+	}
+
+
+@app.get("/ps_endpoint", response_model=ProcessListResponse, tags=["system"])
+def get_process_list():
+	output = run_command(["ps", "-A"])
+	processes = parse_ps_output(output)
+
+	return {
+		"process_list": [
+			{"pid": p.pid, "cmd": p.cmd, "safe": p.safe}
+			for p in processes
 		]
 	}

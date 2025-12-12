@@ -133,6 +133,12 @@ body::after {
   text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
 }
 
+/* Left-align utility for table cells */
+.cyber-table th.text-left,
+.cyber-table td.text-left {
+  text-align: left;
+}
+
 /* Status indicator */
 .status-indicator {
   display: inline-block;
@@ -275,4 +281,14 @@ body::after {
 
 .resize-handle:hover {
   opacity: 1;
+}
+
+/* Unsafe process highlighting */
+.unsafe-process {
+  background: rgba(255, 0, 80, 0.2);
+}
+
+.unsafe-process td {
+  color: #ff3366;
+  text-shadow: 0 0 8px rgba(255, 0, 80, 0.6);
 }
