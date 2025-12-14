@@ -1,20 +1,22 @@
-import ConnectionsPanel from "@/app/ui/lsofPanel";
-import ProcessPanel from "@/app/ui/psPanel";
+import MainView from "@/app/ui/MainView";
 import { getlsofdata } from "@/app/ui/get_lsof_data";
 import { getpsdata } from "@/app/ui/get_ps_data";
+import { getAllSnapshotLists } from "@/app/ui/get_history";
 
 export default async function Home() {
-  // Fetch both data sources in parallel
-  const [lsofData, psData] = await Promise.all([
+  // Fetch all data sources in parallel
+  const [lsofData, psData, snapshotLists] = await Promise.all([
     getlsofdata(),
     getpsdata(),
+    getAllSnapshotLists(),
   ]);
 
   return (
-    <>
-      <div className="grid-overlay" />
-      <ConnectionsPanel connections={lsofData.connections} />
-      <ProcessPanel processes={psData.process_list} />
-    </>
+    <MainView
+      initialPsData={psData.process_list}
+      initialLsofData={lsofData.connections}
+      psSnapshots={snapshotLists.psSnapshots}
+      lsofSnapshots={snapshotLists.lsofSnapshots}
+    />
   );
 }

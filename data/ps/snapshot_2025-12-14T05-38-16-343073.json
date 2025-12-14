@@ -1,0 +1,4285 @@
+{
+  "timestamp": "2025-12-14T05:38:16.342911",
+  "process_list": [
+    {
+      "pid": "1",
+      "cmd": "/sbin/launchd",
+      "safe": true
+    },
+    {
+      "pid": "331",
+      "cmd": "/usr/libexec/logd",
+      "safe": true
+    },
+    {
+      "pid": "332",
+      "cmd": "/usr/libexec/smd",
+      "safe": true
+    },
+    {
+      "pid": "333",
+      "cmd": "/usr/libexec/UserEventAgent (System)",
+      "safe": true
+    },
+    {
+      "pid": "335",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd",
+      "safe": true
+    },
+    {
+      "pid": "336",
+      "cmd": "/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted",
+      "safe": true
+    },
+    {
+      "pid": "339",
+      "cmd": "/usr/sbin/systemstats --daemon",
+      "safe": true
+    },
+    {
+      "pid": "341",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd 120",
+      "safe": true
+    },
+    {
+      "pid": "342",
+      "cmd": "/usr/libexec/uarpassetmanagerd",
+      "safe": false
+    },
+    {
+      "pid": "343",
+      "cmd": "/usr/libexec/configd",
+      "safe": true
+    },
+    {
+      "pid": "344",
+      "cmd": "endpointsecurityd",
+      "safe": true
+    },
+    {
+      "pid": "345",
+      "cmd": "/System/Library/CoreServices/powerd.bundle/powerd",
+      "safe": true
+    },
+    {
+      "pid": "346",
+      "cmd": "/usr/libexec/IOMFB_bics_daemon",
+      "safe": true
+    },
+    {
+      "pid": "348",
+      "cmd": "/usr/libexec/amfid",
+      "safe": true
+    },
+    {
+      "pid": "350",
+      "cmd": "/usr/libexec/remoted",
+      "safe": true
+    },
+    {
+      "pid": "352",
+      "cmd": "/usr/libexec/keybagd -t 15",
+      "safe": true
+    },
+    {
+      "pid": "353",
+      "cmd": "/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated",
+      "safe": true
+    },
+    {
+      "pid": "354",
+      "cmd": "/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd_system",
+      "safe": true
+    },
+    {
+      "pid": "356",
+      "cmd": "/usr/libexec/watchdogd",
+      "safe": true
+    },
+    {
+      "pid": "360",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds",
+      "safe": false
+    },
+    {
+      "pid": "361",
+      "cmd": "/System/Library/CoreServices/iconservicesd",
+      "safe": true
+    },
+    {
+      "pid": "362",
+      "cmd": "/usr/libexec/kernelmanagerd",
+      "safe": true
+    },
+    {
+      "pid": "363",
+      "cmd": "/usr/libexec/diskarbitrationd",
+      "safe": true
+    },
+    {
+      "pid": "366",
+      "cmd": "/usr/libexec/coreduetd",
+      "safe": true
+    },
+    {
+      "pid": "367",
+      "cmd": "/usr/sbin/syslogd",
+      "safe": true
+    },
+    {
+      "pid": "369",
+      "cmd": "/usr/libexec/thermalmonitord",
+      "safe": true
+    },
+    {
+      "pid": "370",
+      "cmd": "/System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored",
+      "safe": true
+    },
+    {
+      "pid": "371",
+      "cmd": "/usr/libexec/opendirectoryd",
+      "safe": true
+    },
+    {
+      "pid": "373",
+      "cmd": "/System/Library/PrivateFrameworks/ApplePushService.framework/apsd",
+      "safe": true
+    },
+    {
+      "pid": "374",
+      "cmd": "/System/Library/CoreServices/launchservicesd",
+      "safe": true
+    },
+    {
+      "pid": "375",
+      "cmd": "/usr/libexec/timed",
+      "safe": true
+    },
+    {
+      "pid": "376",
+      "cmd": "/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd",
+      "safe": true
+    },
+    {
+      "pid": "377",
+      "cmd": "/usr/sbin/securityd -i",
+      "safe": true
+    },
+    {
+      "pid": "379",
+      "cmd": "/usr/libexec/locationd",
+      "safe": true
+    },
+    {
+      "pid": "380",
+      "cmd": "/usr/libexec/nesessionmanager",
+      "safe": true
+    },
+    {
+      "pid": "382",
+      "cmd": "autofsd",
+      "safe": true
+    },
+    {
+      "pid": "383",
+      "cmd": "/usr/libexec/dasd",
+      "safe": true
+    },
+    {
+      "pid": "384",
+      "cmd": "/usr/libexec/corerepaird",
+      "safe": false
+    },
+    {
+      "pid": "386",
+      "cmd": "/usr/sbin/distnoted daemon",
+      "safe": true
+    },
+    {
+      "pid": "387",
+      "cmd": "/System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon",
+      "safe": true
+    },
+    {
+      "pid": "389",
+      "cmd": "/usr/libexec/dirhelper",
+      "safe": true
+    },
+    {
+      "pid": "390",
+      "cmd": "/System/Library/CoreServices/logind",
+      "safe": true
+    },
+    {
+      "pid": "391",
+      "cmd": "/System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond",
+      "safe": true
+    },
+    {
+      "pid": "392",
+      "cmd": "/usr/sbin/KernelEventAgent",
+      "safe": true
+    },
+    {
+      "pid": "393",
+      "cmd": "/usr/libexec/peakpowermanagerd",
+      "safe": false
+    },
+    {
+      "pid": "394",
+      "cmd": "/usr/libexec/usermanagerd -t 15",
+      "safe": true
+    },
+    {
+      "pid": "396",
+      "cmd": "/usr/sbin/bluetoothd",
+      "safe": true
+    },
+    {
+      "pid": "397",
+      "cmd": "/usr/sbin/notifyd",
+      "safe": true
+    },
+    {
+      "pid": "398",
+      "cmd": "/usr/libexec/sandboxd",
+      "safe": true
+    },
+    {
+      "pid": "399",
+      "cmd": "/usr/libexec/corebrightnessd --launchd",
+      "safe": true
+    },
+    {
+      "pid": "400",
+      "cmd": "/usr/libexec/AirPlayXPCHelper",
+      "safe": true
+    },
+    {
+      "pid": "401",
+      "cmd": "/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/com.apple.cmio.registerassistantservice",
+      "safe": true
+    },
+    {
+      "pid": "402",
+      "cmd": "aslmanager",
+      "safe": true
+    },
+    {
+      "pid": "403",
+      "cmd": "/usr/libexec/logd_helper",
+      "safe": true
+    },
+    {
+      "pid": "404",
+      "cmd": "/System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon",
+      "safe": true
+    },
+    {
+      "pid": "405",
+      "cmd": "/System/Library/PrivateFrameworks/TCC.framework/Support/tccd system",
+      "safe": true
+    },
+    {
+      "pid": "406",
+      "cmd": "/usr/sbin/cfprefsd daemon",
+      "safe": true
+    },
+    {
+      "pid": "407",
+      "cmd": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console",
+      "safe": true
+    },
+    {
+      "pid": "408",
+      "cmd": "/usr/libexec/runningboardd",
+      "safe": true
+    },
+    {
+      "pid": "409",
+      "cmd": "/usr/libexec/powerexperienced",
+      "safe": true
+    },
+    {
+      "pid": "410",
+      "cmd": "/usr/libexec/fskitd",
+      "safe": false
+    },
+    {
+      "pid": "411",
+      "cmd": "/System/Library/CoreServices/coreservicesd",
+      "safe": true
+    },
+    {
+      "pid": "412",
+      "cmd": "/usr/libexec/trustd",
+      "safe": true
+    },
+    {
+      "pid": "413",
+      "cmd": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd",
+      "safe": true
+    },
+    {
+      "pid": "414",
+      "cmd": "/usr/libexec/lsd runAsRoot",
+      "safe": true
+    },
+    {
+      "pid": "415",
+      "cmd": "/usr/libexec/containermanagerd_system --runmode=privileged --user-container-mode=current --bundle-container-mode=global --bundle-container-owner=_appinstalld --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "416",
+      "cmd": "/System/Library/CoreServices/liquiddetectiond.app/liquiddetectiond",
+      "safe": true
+    },
+    {
+      "pid": "417",
+      "cmd": "/usr/libexec/apfsd",
+      "safe": true
+    },
+    {
+      "pid": "418",
+      "cmd": "/usr/libexec/nsurlsessiond --privileged",
+      "safe": true
+    },
+    {
+      "pid": "419",
+      "cmd": "/usr/libexec/aned",
+      "safe": true
+    },
+    {
+      "pid": "420",
+      "cmd": "/usr/libexec/nehelper",
+      "safe": true
+    },
+    {
+      "pid": "421",
+      "cmd": "/usr/libexec/biometrickitd --launchd",
+      "safe": true
+    },
+    {
+      "pid": "422",
+      "cmd": "/System/Library/CoreServices/TimeMachine/backupd-helper -launchd",
+      "safe": true
+    },
+    {
+      "pid": "423",
+      "cmd": "/usr/libexec/PowerUIAgent",
+      "safe": true
+    },
+    {
+      "pid": "424",
+      "cmd": "/usr/sbin/coreaudiod",
+      "safe": true
+    },
+    {
+      "pid": "426",
+      "cmd": "/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed",
+      "safe": true
+    },
+    {
+      "pid": "427",
+      "cmd": "/usr/libexec/trustdFileHelper",
+      "safe": true
+    },
+    {
+      "pid": "428",
+      "cmd": "/System/Library/PrivateFrameworks/SystemStatusServer.framework/Support/systemstatusd",
+      "safe": true
+    },
+    {
+      "pid": "429",
+      "cmd": "/usr/libexec/ApplicationFirewall/socketfilterfw",
+      "safe": true
+    },
+    {
+      "pid": "432",
+      "cmd": "/usr/libexec/eligibilityd",
+      "safe": true
+    },
+    {
+      "pid": "433",
+      "cmd": "/usr/libexec/hidd",
+      "safe": true
+    },
+    {
+      "pid": "436",
+      "cmd": "/usr/libexec/secinitd",
+      "safe": true
+    },
+    {
+      "pid": "437",
+      "cmd": "/usr/libexec/mobileassetd",
+      "safe": true
+    },
+    {
+      "pid": "438",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "439",
+      "cmd": "/usr/libexec/corercd",
+      "safe": false
+    },
+    {
+      "pid": "440",
+      "cmd": "/System/Library/Frameworks/SystemExtensions.framework/Versions/A/Helpers/sysextd",
+      "safe": true
+    },
+    {
+      "pid": "442",
+      "cmd": "/usr/libexec/symptomsd",
+      "safe": true
+    },
+    {
+      "pid": "463",
+      "cmd": "/usr/libexec/cryptexd",
+      "safe": true
+    },
+    {
+      "pid": "472",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "477",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "483",
+      "cmd": "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Resources/backgroundtaskmanagementd -daemon",
+      "safe": true
+    },
+    {
+      "pid": "488",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "499",
+      "cmd": "/usr/libexec/colorsync.displayservices",
+      "safe": true
+    },
+    {
+      "pid": "504",
+      "cmd": "/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper",
+      "safe": true
+    },
+    {
+      "pid": "505",
+      "cmd": "/usr/libexec/airportd",
+      "safe": true
+    },
+    {
+      "pid": "506",
+      "cmd": "/usr/sbin/appleh13camerad",
+      "safe": false
+    },
+    {
+      "pid": "507",
+      "cmd": "/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd",
+      "safe": true
+    },
+    {
+      "pid": "508",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon",
+      "safe": true
+    },
+    {
+      "pid": "509",
+      "cmd": "/usr/libexec/syspolicyd",
+      "safe": true
+    },
+    {
+      "pid": "510",
+      "cmd": "/usr/sbin/mDNSResponder",
+      "safe": true
+    },
+    {
+      "pid": "511",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "512",
+      "cmd": "/usr/libexec/storagekitd",
+      "safe": true
+    },
+    {
+      "pid": "513",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "515",
+      "cmd": "/Applications/Cloudflare WARP.app/Contents/Resources/CloudflareWARP",
+      "safe": false
+    },
+    {
+      "pid": "516",
+      "cmd": "/System/Library/CoreServices/TimeMachine/backupd",
+      "safe": true
+    },
+    {
+      "pid": "517",
+      "cmd": "/usr/libexec/securityd_system",
+      "safe": true
+    },
+    {
+      "pid": "518",
+      "cmd": "/usr/sbin/WirelessRadioManagerd",
+      "safe": true
+    },
+    {
+      "pid": "519",
+      "cmd": "/usr/libexec/cameracaptured",
+      "safe": true
+    },
+    {
+      "pid": "521",
+      "cmd": "/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/UVCAssistant.systemextension/Contents/MacOS/UVCAssistant",
+      "safe": true
+    },
+    {
+      "pid": "523",
+      "cmd": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system",
+      "safe": true
+    },
+    {
+      "pid": "524",
+      "cmd": "/usr/libexec/findmybeaconingd",
+      "safe": true
+    },
+    {
+      "pid": "525",
+      "cmd": "/usr/sbin/mDNSResponderHelper",
+      "safe": true
+    },
+    {
+      "pid": "526",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "safe": true
+    },
+    {
+      "pid": "527",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "529",
+      "cmd": "/usr/libexec/triald_system",
+      "safe": true
+    },
+    {
+      "pid": "530",
+      "cmd": "/usr/libexec/mobileactivationd",
+      "safe": true
+    },
+    {
+      "pid": "532",
+      "cmd": "/usr/libexec/secinitd",
+      "safe": true
+    },
+    {
+      "pid": "534",
+      "cmd": "/System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper",
+      "safe": true
+    },
+    {
+      "pid": "535",
+      "cmd": "Core Audio Driver (ParrotAudioPlugin.driver)",
+      "safe": false
+    },
+    {
+      "pid": "536",
+      "cmd": "/usr/libexec/audioclocksyncd",
+      "safe": true
+    },
+    {
+      "pid": "537",
+      "cmd": "/usr/libexec/audiomxd",
+      "safe": true
+    },
+    {
+      "pid": "538",
+      "cmd": "/usr/libexec/ospredictiond",
+      "safe": true
+    },
+    {
+      "pid": "539",
+      "cmd": "/usr/libexec/audioanalyticsd",
+      "safe": true
+    },
+    {
+      "pid": "540",
+      "cmd": "/usr/libexec/countryd",
+      "safe": true
+    },
+    {
+      "pid": "541",
+      "cmd": "/System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/Versions/A/XPCServices/AppleDeviceQueryService.xpc/Contents/MacOS/AppleDeviceQueryService",
+      "safe": true
+    },
+    {
+      "pid": "542",
+      "cmd": "/usr/libexec/modelmanagerd",
+      "safe": true
+    },
+    {
+      "pid": "543",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "544",
+      "cmd": "/usr/libexec/trustd --agent",
+      "safe": true
+    },
+    {
+      "pid": "545",
+      "cmd": "/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated",
+      "safe": true
+    },
+    {
+      "pid": "546",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "547",
+      "cmd": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "548",
+      "cmd": "/System/Library/CoreServices/osanalyticshelper server-init",
+      "safe": true
+    },
+    {
+      "pid": "549",
+      "cmd": "/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd",
+      "safe": true
+    },
+    {
+      "pid": "550",
+      "cmd": "/System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd",
+      "safe": true
+    },
+    {
+      "pid": "551",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "552",
+      "cmd": "/usr/libexec/searchpartyd",
+      "safe": true
+    },
+    {
+      "pid": "556",
+      "cmd": "/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Versions/A/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/Contents/MacOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService",
+      "safe": true
+    },
+    {
+      "pid": "558",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "560",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "561",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores",
+      "safe": false
+    },
+    {
+      "pid": "562",
+      "cmd": "/System/Library/PrivateFrameworks/PowerLog.framework/Versions/A/XPCServices/PerfPowerTelemetryClientRegistrationService.xpc/Contents/MacOS/PerfPowerTelemetryClientRegistrationService",
+      "safe": true
+    },
+    {
+      "pid": "563",
+      "cmd": "/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN com.apple.bcmwlan 0x100000fb1 com.apple.DriverKit-AppleBCMWLAN",
+      "safe": false
+    },
+    {
+      "pid": "564",
+      "cmd": "/System/Library/DriverExtensions/com.apple.DriverKit-IOUserDockChannelSerial.dext/com.apple.DriverKit-IOUserDockChannelSerial com.apple.IOUserDockChannelSerial 0x10000116b com.apple.DriverKit-IOUserDockChannelSerial",
+      "safe": false
+    },
+    {
+      "pid": "565",
+      "cmd": "/System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers com.apple.driverkit.AppleUserHIDDrivers 0x10000116d com.apple.AppleUserHIDDrivers",
+      "safe": false
+    },
+    {
+      "pid": "568",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "safe": true
+    },
+    {
+      "pid": "570",
+      "cmd": "/usr/libexec/secinitd",
+      "safe": true
+    },
+    {
+      "pid": "571",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "572",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "573",
+      "cmd": "/usr/libexec/rtcreportingd",
+      "safe": true
+    },
+    {
+      "pid": "574",
+      "cmd": "/usr/libexec/trustd --agent",
+      "safe": true
+    },
+    {
+      "pid": "576",
+      "cmd": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "580",
+      "cmd": "/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService",
+      "safe": true
+    },
+    {
+      "pid": "584",
+      "cmd": "/System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent",
+      "safe": true
+    },
+    {
+      "pid": "586",
+      "cmd": "/usr/libexec/colorsyncd",
+      "safe": true
+    },
+    {
+      "pid": "590",
+      "cmd": "/usr/libexec/aneuserd",
+      "safe": true
+    },
+    {
+      "pid": "591",
+      "cmd": "/usr/libexec/online-auth-agent",
+      "safe": true
+    },
+    {
+      "pid": "592",
+      "cmd": "/System/Library/CoreServices/appleeventsd --server",
+      "safe": true
+    },
+    {
+      "pid": "594",
+      "cmd": "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary",
+      "safe": true
+    },
+    {
+      "pid": "595",
+      "cmd": "/usr/libexec/sysmond",
+      "safe": true
+    },
+    {
+      "pid": "596",
+      "cmd": "/usr/libexec/symptomsd-diag",
+      "safe": true
+    },
+    {
+      "pid": "597",
+      "cmd": "/usr/sbin/systemstats --logger-helper /private/var/db/systemstats",
+      "safe": true
+    },
+    {
+      "pid": "598",
+      "cmd": "/usr/libexec/bootinstalld",
+      "safe": true
+    },
+    {
+      "pid": "601",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceAFU.xpc/Contents/MacOS/UARPUpdaterServiceAFU",
+      "safe": true
+    },
+    {
+      "pid": "602",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDFU.xpc/Contents/MacOS/UARPUpdaterServiceDFU",
+      "safe": true
+    },
+    {
+      "pid": "603",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDisplay.xpc/Contents/MacOS/UARPUpdaterServiceDisplay",
+      "safe": true
+    },
+    {
+      "pid": "604",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceLegacyAudio.xpc/Contents/MacOS/UARPUpdaterServiceLegacyAudio",
+      "safe": true
+    },
+    {
+      "pid": "605",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceUSBPD.xpc/Contents/MacOS/UARPUpdaterServiceUSBPD",
+      "safe": true
+    },
+    {
+      "pid": "606",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceHID.xpc/Contents/MacOS/UARPUpdaterServiceHID",
+      "safe": true
+    },
+    {
+      "pid": "607",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "608",
+      "cmd": "/System/Library/Frameworks/GSS.framework/Helpers/GSSCred",
+      "safe": true
+    },
+    {
+      "pid": "609",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice",
+      "safe": true
+    },
+    {
+      "pid": "610",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/ThunderboltAccessoryUpdaterService.xpc/Contents/MacOS/ThunderboltAccessoryUpdaterService",
+      "safe": true
+    },
+    {
+      "pid": "613",
+      "cmd": "/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd",
+      "safe": true
+    },
+    {
+      "pid": "614",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "615",
+      "cmd": "/usr/libexec/applekeystored",
+      "safe": true
+    },
+    {
+      "pid": "616",
+      "cmd": "/System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader",
+      "safe": false
+    },
+    {
+      "pid": "617",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "618",
+      "cmd": "/usr/libexec/wifip2pd",
+      "safe": true
+    },
+    {
+      "pid": "619",
+      "cmd": "/System/Library/PrivateFrameworks/CoreKDL.framework/Support/corekdld",
+      "safe": true
+    },
+    {
+      "pid": "620",
+      "cmd": "/usr/libexec/UserEventAgent (Aqua)",
+      "safe": true
+    },
+    {
+      "pid": "621",
+      "cmd": "/usr/libexec/gamecontrollerd",
+      "safe": true
+    },
+    {
+      "pid": "622",
+      "cmd": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager",
+      "safe": true
+    },
+    {
+      "pid": "623",
+      "cmd": "/usr/libexec/seld",
+      "safe": true
+    },
+    {
+      "pid": "624",
+      "cmd": "/usr/libexec/uarpd",
+      "safe": false
+    },
+    {
+      "pid": "626",
+      "cmd": "/usr/libexec/neagent",
+      "safe": true
+    },
+    {
+      "pid": "627",
+      "cmd": "/System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/Contents/MacOS/WiFiCloudAssetsXPCService",
+      "safe": true
+    },
+    {
+      "pid": "628",
+      "cmd": "/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent",
+      "safe": true
+    },
+    {
+      "pid": "629",
+      "cmd": "/usr/sbin/universalaccessd launchd -s",
+      "safe": true
+    },
+    {
+      "pid": "630",
+      "cmd": "/usr/libexec/rapportd",
+      "safe": true
+    },
+    {
+      "pid": "631",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "632",
+      "cmd": "/usr/libexec/pboard",
+      "safe": true
+    },
+    {
+      "pid": "633",
+      "cmd": "/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent",
+      "safe": true
+    },
+    {
+      "pid": "635",
+      "cmd": "/usr/libexec/lsd",
+      "safe": true
+    },
+    {
+      "pid": "636",
+      "cmd": "/usr/libexec/secd",
+      "safe": true
+    },
+    {
+      "pid": "637",
+      "cmd": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "638",
+      "cmd": "/usr/libexec/linkd",
+      "safe": true
+    },
+    {
+      "pid": "640",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "641",
+      "cmd": "/System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd",
+      "safe": false
+    },
+    {
+      "pid": "642",
+      "cmd": "/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L",
+      "safe": true
+    },
+    {
+      "pid": "643",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice",
+      "safe": true
+    },
+    {
+      "pid": "644",
+      "cmd": "/System/Library/CoreServices/APFSUserAgent",
+      "safe": true
+    },
+    {
+      "pid": "646",
+      "cmd": "/usr/libexec/nsurlsessiond",
+      "safe": true
+    },
+    {
+      "pid": "647",
+      "cmd": "/System/Library/CoreServices/talagentd",
+      "safe": true
+    },
+    {
+      "pid": "648",
+      "cmd": "/System/Library/CoreServices/lockoutagent",
+      "safe": false
+    },
+    {
+      "pid": "649",
+      "cmd": "/usr/sbin/usernoted",
+      "safe": true
+    },
+    {
+      "pid": "650",
+      "cmd": "/usr/libexec/routined LAUNCHED_BY_LAUNCHD",
+      "safe": true
+    },
+    {
+      "pid": "651",
+      "cmd": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "safe": true
+    },
+    {
+      "pid": "652",
+      "cmd": "/usr/libexec/trustd --agent",
+      "safe": true
+    },
+    {
+      "pid": "653",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd",
+      "safe": false
+    },
+    {
+      "pid": "654",
+      "cmd": "/usr/libexec/swcd",
+      "safe": true
+    },
+    {
+      "pid": "655",
+      "cmd": "/usr/libexec/duetexpertd",
+      "safe": true
+    },
+    {
+      "pid": "656",
+      "cmd": "/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged",
+      "safe": true
+    },
+    {
+      "pid": "657",
+      "cmd": "/System/Library/PrivateFrameworks/SessionCore.framework/Support/liveactivitiesd",
+      "safe": false
+    },
+    {
+      "pid": "658",
+      "cmd": "/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd",
+      "safe": true
+    },
+    {
+      "pid": "659",
+      "cmd": "/usr/libexec/siriknowledged",
+      "safe": true
+    },
+    {
+      "pid": "660",
+      "cmd": "/System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent",
+      "safe": true
+    },
+    {
+      "pid": "662",
+      "cmd": "/usr/libexec/secinitd",
+      "safe": true
+    },
+    {
+      "pid": "663",
+      "cmd": "/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd",
+      "safe": true
+    },
+    {
+      "pid": "665",
+      "cmd": "/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent",
+      "safe": true
+    },
+    {
+      "pid": "666",
+      "cmd": "/usr/libexec/dmd",
+      "safe": true
+    },
+    {
+      "pid": "667",
+      "cmd": "/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd",
+      "safe": true
+    },
+    {
+      "pid": "668",
+      "cmd": "/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd",
+      "safe": true
+    },
+    {
+      "pid": "669",
+      "cmd": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+      "safe": true
+    },
+    {
+      "pid": "670",
+      "cmd": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "safe": true
+    },
+    {
+      "pid": "671",
+      "cmd": "/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent",
+      "safe": true
+    },
+    {
+      "pid": "672",
+      "cmd": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd",
+      "safe": true
+    },
+    {
+      "pid": "673",
+      "cmd": "/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird",
+      "safe": true
+    },
+    {
+      "pid": "674",
+      "cmd": "/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd",
+      "safe": true
+    },
+    {
+      "pid": "675",
+      "cmd": "/usr/libexec/mobilerepaird",
+      "safe": false
+    },
+    {
+      "pid": "676",
+      "cmd": "/usr/libexec/MTLAssetUpgraderD",
+      "safe": true
+    },
+    {
+      "pid": "677",
+      "cmd": "/usr/libexec/diagnosticextensionsd",
+      "safe": true
+    },
+    {
+      "pid": "678",
+      "cmd": "/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced",
+      "safe": true
+    },
+    {
+      "pid": "679",
+      "cmd": "/usr/libexec/networkserviceproxy",
+      "safe": true
+    },
+    {
+      "pid": "680",
+      "cmd": "/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent",
+      "safe": true
+    },
+    {
+      "pid": "681",
+      "cmd": "/System/Library/Frameworks/MediaExtension.framework/Versions/A/Helpers/MENotificationAgent",
+      "safe": true
+    },
+    {
+      "pid": "682",
+      "cmd": "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app/Contents/MacOS/BackgroundTaskManagementAgent",
+      "safe": true
+    },
+    {
+      "pid": "683",
+      "cmd": "/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd",
+      "safe": true
+    },
+    {
+      "pid": "684",
+      "cmd": "/System/Library/PrivateFrameworks/ReplicatorCore.framework/Support/replicatord",
+      "safe": true
+    },
+    {
+      "pid": "685",
+      "cmd": "/System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent",
+      "safe": true
+    },
+    {
+      "pid": "686",
+      "cmd": "/System/Library/PrivateFrameworks/TCC.framework/Support/tccd",
+      "safe": true
+    },
+    {
+      "pid": "687",
+      "cmd": "/System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd",
+      "safe": true
+    },
+    {
+      "pid": "688",
+      "cmd": "/usr/libexec/transparencyd",
+      "safe": true
+    },
+    {
+      "pid": "690",
+      "cmd": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw",
+      "safe": true
+    },
+    {
+      "pid": "691",
+      "cmd": "/usr/libexec/knowledge-agent",
+      "safe": true
+    },
+    {
+      "pid": "692",
+      "cmd": "/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd",
+      "safe": true
+    },
+    {
+      "pid": "693",
+      "cmd": "/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper",
+      "safe": false
+    },
+    {
+      "pid": "694",
+      "cmd": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkd -st",
+      "safe": true
+    },
+    {
+      "pid": "695",
+      "cmd": "/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd",
+      "safe": true
+    },
+    {
+      "pid": "696",
+      "cmd": "/usr/libexec/pkd",
+      "safe": true
+    },
+    {
+      "pid": "698",
+      "cmd": "/System/Library/PrivateFrameworks/DoNotDisturbServer.framework/Support/donotdisturbd",
+      "safe": true
+    },
+    {
+      "pid": "699",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "700",
+      "cmd": "/System/Library/CoreServices/sharedfilelistd",
+      "safe": true
+    },
+    {
+      "pid": "701",
+      "cmd": "/System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent",
+      "safe": true
+    },
+    {
+      "pid": "702",
+      "cmd": "/System/Library/PrivateFrameworks/CacheDelete.framework/deleted",
+      "safe": true
+    },
+    {
+      "pid": "704",
+      "cmd": "/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed",
+      "safe": true
+    },
+    {
+      "pid": "705",
+      "cmd": "/usr/libexec/sharingd",
+      "safe": true
+    },
+    {
+      "pid": "706",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "707",
+      "cmd": "/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock",
+      "safe": true
+    },
+    {
+      "pid": "708",
+      "cmd": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+      "safe": true
+    },
+    {
+      "pid": "709",
+      "cmd": "/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled",
+      "safe": true
+    },
+    {
+      "pid": "710",
+      "cmd": "/System/Library/PrivateFrameworks/IntlPreferences.framework/Support/localizationswitcherd",
+      "safe": true
+    },
+    {
+      "pid": "711",
+      "cmd": "/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd",
+      "safe": true
+    },
+    {
+      "pid": "712",
+      "cmd": "/System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent",
+      "safe": true
+    },
+    {
+      "pid": "713",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd",
+      "safe": true
+    },
+    {
+      "pid": "714",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "safe": true
+    },
+    {
+      "pid": "715",
+      "cmd": "/usr/libexec/findmylocateagent",
+      "safe": true
+    },
+    {
+      "pid": "717",
+      "cmd": "/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer",
+      "safe": true
+    },
+    {
+      "pid": "718",
+      "cmd": "/System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/assistant_cdmd",
+      "safe": true
+    },
+    {
+      "pid": "720",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "723",
+      "cmd": "/System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent",
+      "safe": true
+    },
+    {
+      "pid": "724",
+      "cmd": "/System/Library/CoreServices/AccessibilityUIServer.app/Contents/MacOS/AccessibilityUIServer",
+      "safe": false
+    },
+    {
+      "pid": "725",
+      "cmd": "/System/Library/Frameworks/FamilyControls.framework/Versions/A/FamilyControlsAgent",
+      "safe": false
+    },
+    {
+      "pid": "726",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/XPCServices/csnameddatad.xpc/Contents/MacOS/csnameddatad",
+      "safe": true
+    },
+    {
+      "pid": "727",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker",
+      "safe": true
+    },
+    {
+      "pid": "728",
+      "cmd": "/usr/sbin/filecoordinationd",
+      "safe": true
+    },
+    {
+      "pid": "730",
+      "cmd": "/System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent",
+      "safe": true
+    },
+    {
+      "pid": "731",
+      "cmd": "/usr/libexec/gamepolicyd",
+      "safe": true
+    },
+    {
+      "pid": "732",
+      "cmd": "/System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService",
+      "safe": true
+    },
+    {
+      "pid": "733",
+      "cmd": "/System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd",
+      "safe": true
+    },
+    {
+      "pid": "734",
+      "cmd": "/System/Library/Frameworks/FinanceKit.framework/financed",
+      "safe": true
+    },
+    {
+      "pid": "735",
+      "cmd": "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary",
+      "safe": true
+    },
+    {
+      "pid": "736",
+      "cmd": "/usr/libexec/rosetta/oahd",
+      "safe": false
+    },
+    {
+      "pid": "737",
+      "cmd": "/System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app/Contents/MacOS/sociallayerd",
+      "safe": true
+    },
+    {
+      "pid": "738",
+      "cmd": "/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd",
+      "safe": true
+    },
+    {
+      "pid": "739",
+      "cmd": "/System/Library/CoreServices/iconservicesagent",
+      "safe": true
+    },
+    {
+      "pid": "740",
+      "cmd": "/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd",
+      "safe": true
+    },
+    {
+      "pid": "741",
+      "cmd": "/usr/libexec/ContinuityCaptureAgent server",
+      "safe": true
+    },
+    {
+      "pid": "742",
+      "cmd": "/usr/libexec/wallpaperexportd",
+      "safe": false
+    },
+    {
+      "pid": "743",
+      "cmd": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd",
+      "safe": true
+    },
+    {
+      "pid": "744",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "745",
+      "cmd": "/System/Library/CoreServices/ReportCrash agent",
+      "safe": true
+    },
+    {
+      "pid": "746",
+      "cmd": "/usr/sbin/systemsoundserverd",
+      "safe": true
+    },
+    {
+      "pid": "749",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "750",
+      "cmd": "/System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmFlcmlhbHMiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "safe": false
+    },
+    {
+      "pid": "751",
+      "cmd": "/System/Library/ExtensionKit/Extensions/WallpaperImageExtension.appex/Contents/MacOS/WallpaperImageExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmltYWdlIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9",
+      "safe": false
+    },
+    {
+      "pid": "754",
+      "cmd": "/usr/libexec/intelligentroutingd",
+      "safe": true
+    },
+    {
+      "pid": "755",
+      "cmd": "/System/Library/CoreServices/audioaccessoryd",
+      "safe": true
+    },
+    {
+      "pid": "757",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "758",
+      "cmd": "/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd",
+      "safe": true
+    },
+    {
+      "pid": "759",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "760",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "761",
+      "cmd": "/usr/libexec/replayd",
+      "safe": true
+    },
+    {
+      "pid": "762",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar",
+      "safe": true
+    },
+    {
+      "pid": "763",
+      "cmd": "/usr/libexec/triald",
+      "safe": true
+    },
+    {
+      "pid": "764",
+      "cmd": "/System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd",
+      "safe": false
+    },
+    {
+      "pid": "766",
+      "cmd": "/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd",
+      "safe": true
+    },
+    {
+      "pid": "767",
+      "cmd": "/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd",
+      "safe": true
+    },
+    {
+      "pid": "768",
+      "cmd": "/Library/Apple/System/Library/PrivateFrameworks/DeviceInterface.framework/Support/deviceinterfaced",
+      "safe": true
+    },
+    {
+      "pid": "769",
+      "cmd": "/usr/libexec/nearbyd",
+      "safe": true
+    },
+    {
+      "pid": "770",
+      "cmd": "/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent",
+      "safe": true
+    },
+    {
+      "pid": "771",
+      "cmd": "/usr/libexec/kernelmanager_helper",
+      "safe": true
+    },
+    {
+      "pid": "772",
+      "cmd": "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd",
+      "safe": true
+    },
+    {
+      "pid": "773",
+      "cmd": "/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd",
+      "safe": true
+    },
+    {
+      "pid": "774",
+      "cmd": "/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService",
+      "safe": true
+    },
+    {
+      "pid": "775",
+      "cmd": "/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent",
+      "safe": true
+    },
+    {
+      "pid": "776",
+      "cmd": "/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter",
+      "safe": true
+    },
+    {
+      "pid": "778",
+      "cmd": "/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSODaemon",
+      "safe": true
+    },
+    {
+      "pid": "779",
+      "cmd": "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd",
+      "safe": true
+    },
+    {
+      "pid": "780",
+      "cmd": "/System/Library/PrivateFrameworks/CoreADI.framework/adid",
+      "safe": true
+    },
+    {
+      "pid": "781",
+      "cmd": "/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/FeatureAccessAgent",
+      "safe": false
+    },
+    {
+      "pid": "787",
+      "cmd": "/usr/libexec/searchpartyuseragent",
+      "safe": true
+    },
+    {
+      "pid": "788",
+      "cmd": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent",
+      "safe": true
+    },
+    {
+      "pid": "791",
+      "cmd": "/System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration",
+      "safe": true
+    },
+    {
+      "pid": "793",
+      "cmd": "/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing",
+      "safe": true
+    },
+    {
+      "pid": "794",
+      "cmd": "/System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification",
+      "safe": false
+    },
+    {
+      "pid": "797",
+      "cmd": "/System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem system_app_start",
+      "safe": true
+    },
+    {
+      "pid": "798",
+      "cmd": "/usr/libexec/studentd",
+      "safe": true
+    },
+    {
+      "pid": "799",
+      "cmd": "/System/Library/PrivateFrameworks/TelephonyUtilities.framework/XPCServices/com.apple.FaceTime.FTConversationService.xpc/Contents/MacOS/com.apple.FaceTime.FTConversationService",
+      "safe": true
+    },
+    {
+      "pid": "800",
+      "cmd": "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd",
+      "safe": true
+    },
+    {
+      "pid": "801",
+      "cmd": "/usr/libexec/appleaccountd",
+      "safe": true
+    },
+    {
+      "pid": "802",
+      "cmd": "/usr/libexec/findmydeviced",
+      "safe": true
+    },
+    {
+      "pid": "803",
+      "cmd": "/System/Library/PrivateFrameworks/WiFiPolicy.framework/XPCServices/WiFiCloudAssetsXPCService.xpc/Contents/MacOS/WiFiCloudAssetsXPCService",
+      "safe": true
+    },
+    {
+      "pid": "804",
+      "cmd": "/System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent",
+      "safe": true
+    },
+    {
+      "pid": "805",
+      "cmd": "/usr/libexec/wifianalyticsd",
+      "safe": true
+    },
+    {
+      "pid": "806",
+      "cmd": "/System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd",
+      "safe": true
+    },
+    {
+      "pid": "807",
+      "cmd": "/usr/libexec/frauddefensed",
+      "safe": false
+    },
+    {
+      "pid": "808",
+      "cmd": "/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd",
+      "safe": true
+    },
+    {
+      "pid": "809",
+      "cmd": "/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent",
+      "safe": true
+    },
+    {
+      "pid": "810",
+      "cmd": "/usr/libexec/avconferenced",
+      "safe": true
+    },
+    {
+      "pid": "811",
+      "cmd": "/System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition",
+      "safe": true
+    },
+    {
+      "pid": "813",
+      "cmd": "/System/Library/CoreServices/ScopedBookmarkAgent",
+      "safe": true
+    },
+    {
+      "pid": "814",
+      "cmd": "/usr/libexec/milod",
+      "safe": true
+    },
+    {
+      "pid": "815",
+      "cmd": "/System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent",
+      "safe": true
+    },
+    {
+      "pid": "816",
+      "cmd": "/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd",
+      "safe": true
+    },
+    {
+      "pid": "817",
+      "cmd": "/System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight",
+      "safe": true
+    },
+    {
+      "pid": "818",
+      "cmd": "/System/Library/Frameworks/ClassKit.framework/Versions/A/progressd",
+      "safe": false
+    },
+    {
+      "pid": "820",
+      "cmd": "/System/Library/PrivateFrameworks/iCloudDriveService.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor",
+      "safe": false
+    },
+    {
+      "pid": "822",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "823",
+      "cmd": "/System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent",
+      "safe": true
+    },
+    {
+      "pid": "824",
+      "cmd": "/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.iCloudDriveFileProvider -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwidHlwZSI6MSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuQ2xvdWREb2NzLmlDbG91ZERyaXZlRmlsZVByb3ZpZGVyIn0=",
+      "safe": false
+    },
+    {
+      "pid": "825",
+      "cmd": "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a",
+      "safe": true
+    },
+    {
+      "pid": "826",
+      "cmd": "/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "827",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "828",
+      "cmd": "/System/Library/PrivateFrameworks/CacheDelete.framework/deleted_helper",
+      "safe": true
+    },
+    {
+      "pid": "831",
+      "cmd": "/usr/libexec/AssetCache/AssetCache",
+      "safe": true
+    },
+    {
+      "pid": "832",
+      "cmd": "/System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent",
+      "safe": true
+    },
+    {
+      "pid": "833",
+      "cmd": "/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra",
+      "safe": true
+    },
+    {
+      "pid": "834",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "835",
+      "cmd": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService",
+      "safe": false
+    },
+    {
+      "pid": "836",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "837",
+      "cmd": "/System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService",
+      "safe": true
+    },
+    {
+      "pid": "838",
+      "cmd": "/System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd",
+      "safe": true
+    },
+    {
+      "pid": "839",
+      "cmd": "/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
+      "safe": true
+    },
+    {
+      "pid": "840",
+      "cmd": "/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper",
+      "safe": true
+    },
+    {
+      "pid": "841",
+      "cmd": "/System/Library/CoreServices/pbs",
+      "safe": true
+    },
+    {
+      "pid": "842",
+      "cmd": "/System/Library/ExtensionKit/Extensions/TextThumbnailExtension.appex/Contents/MacOS/TextThumbnailExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5xdWlja2xvb2sudGh1bWJuYWlsLlRleHRFeHRlbnNpb24iLCJ0eXBlIjoxLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "safe": false
+    },
+    {
+      "pid": "843",
+      "cmd": "cloudphotod",
+      "safe": true
+    },
+    {
+      "pid": "844",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "847",
+      "cmd": "/System/Library/CoreServices/appplaceholdersyncd",
+      "safe": false
+    },
+    {
+      "pid": "848",
+      "cmd": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce",
+      "safe": true
+    },
+    {
+      "pid": "849",
+      "cmd": "/System/Library/PrivateFrameworks/CoreThreadCommissionerService.framework/CoreThreadCommissionerServiced",
+      "safe": false
+    },
+    {
+      "pid": "850",
+      "cmd": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
+      "safe": true
+    },
+    {
+      "pid": "851",
+      "cmd": "/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd",
+      "safe": false
+    },
+    {
+      "pid": "852",
+      "cmd": "/System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/XPCServices/TrialArchivingService.xpc/Contents/MacOS/TrialArchivingService",
+      "safe": false
+    },
+    {
+      "pid": "853",
+      "cmd": "/System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd",
+      "safe": true
+    },
+    {
+      "pid": "854",
+      "cmd": "/System/Library/Frameworks/Contacts.framework/Support/postersyncd",
+      "safe": false
+    },
+    {
+      "pid": "855",
+      "cmd": "/System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd",
+      "safe": true
+    },
+    {
+      "pid": "856",
+      "cmd": "/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd",
+      "safe": true
+    },
+    {
+      "pid": "857",
+      "cmd": "/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent",
+      "safe": true
+    },
+    {
+      "pid": "858",
+      "cmd": "/usr/libexec/bluetoothuserd",
+      "safe": true
+    },
+    {
+      "pid": "859",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge",
+      "safe": true
+    },
+    {
+      "pid": "860",
+      "cmd": "/System/Library/CoreServices/diagnostics_agent",
+      "safe": true
+    },
+    {
+      "pid": "861",
+      "cmd": "/System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/XPCServices/AssetCacheTetheratorService.xpc/Contents/MacOS/AssetCacheTetheratorService",
+      "safe": true
+    },
+    {
+      "pid": "862",
+      "cmd": "/System/Library/PrivateFrameworks/InstallCoordination.framework/Support/installcoordinationd",
+      "safe": true
+    },
+    {
+      "pid": "863",
+      "cmd": "/usr/libexec/SidecarRelay",
+      "safe": false
+    },
+    {
+      "pid": "864",
+      "cmd": "/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl",
+      "safe": false
+    },
+    {
+      "pid": "865",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "866",
+      "cmd": "/usr/sbin/BTLEServerAgent",
+      "safe": false
+    },
+    {
+      "pid": "867",
+      "cmd": "/System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/Contents/MacOS/com.apple.MobileInstallationHelperService",
+      "safe": true
+    },
+    {
+      "pid": "868",
+      "cmd": "/usr/libexec/betaenrollmentagent",
+      "safe": true
+    },
+    {
+      "pid": "869",
+      "cmd": "/usr/libexec/betaenrollmentd",
+      "safe": true
+    },
+    {
+      "pid": "870",
+      "cmd": "/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedODRService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedODRService",
+      "safe": true
+    },
+    {
+      "pid": "872",
+      "cmd": "/usr/sbin/spindump",
+      "safe": true
+    },
+    {
+      "pid": "873",
+      "cmd": "/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd",
+      "safe": true
+    },
+    {
+      "pid": "874",
+      "cmd": "/usr/libexec/spindump_agent",
+      "safe": false
+    },
+    {
+      "pid": "875",
+      "cmd": "/System/Library/CoreServices/SubmitDiagInfo server-init",
+      "safe": true
+    },
+    {
+      "pid": "880",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "882",
+      "cmd": "/System/Library/ExtensionKit/Extensions/HostInferenceProviderService.appex/Contents/MacOS/HostInferenceProviderService -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuSG9zdEluZmVyZW5jZVByb3ZpZGVyU2VydmljZSIsInR5cGUiOjh9",
+      "safe": false
+    },
+    {
+      "pid": "883",
+      "cmd": "/usr/sbin/BTLEServer",
+      "safe": false
+    },
+    {
+      "pid": "884",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "885",
+      "cmd": "/System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -u",
+      "safe": true
+    },
+    {
+      "pid": "886",
+      "cmd": "/usr/libexec/inputanalyticsd",
+      "safe": true
+    },
+    {
+      "pid": "887",
+      "cmd": "/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd",
+      "safe": false
+    },
+    {
+      "pid": "888",
+      "cmd": "/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper",
+      "safe": true
+    },
+    {
+      "pid": "889",
+      "cmd": "/System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent",
+      "safe": true
+    },
+    {
+      "pid": "893",
+      "cmd": "/System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent",
+      "safe": true
+    },
+    {
+      "pid": "894",
+      "cmd": "/System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/Versions/A/XPCServices/AppleDeviceQueryService.xpc/Contents/MacOS/AppleDeviceQueryService",
+      "safe": true
+    },
+    {
+      "pid": "895",
+      "cmd": "/usr/libexec/nfcd",
+      "safe": true
+    },
+    {
+      "pid": "897",
+      "cmd": "/usr/libexec/captiveagent",
+      "safe": true
+    },
+    {
+      "pid": "903",
+      "cmd": "/System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd",
+      "safe": true
+    },
+    {
+      "pid": "904",
+      "cmd": "/System/Library/PrivateFrameworks/NearFieldPrivateServices.framework/Versions/A/XPCServices/NFStorageServer.xpc/Contents/MacOS/NFStorageServer",
+      "safe": true
+    },
+    {
+      "pid": "905",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "906",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "907",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "908",
+      "cmd": "/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd",
+      "safe": true
+    },
+    {
+      "pid": "909",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "safe": true
+    },
+    {
+      "pid": "910",
+      "cmd": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "912",
+      "cmd": "/System/Library/PrivateFrameworks/TextToSpeechMauiSupport.framework/Versions/A/PlugIns/MauiAUSP.appex/Contents/MacOS/MauiAUSP -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "913",
+      "cmd": "/System/Library/PrivateFrameworks/MacinTalk.framework/Versions/A/PlugIns/WardaSynthesizer.appex/Contents/MacOS/WardaSynthesizer -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "914",
+      "cmd": "/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/A/PlugIns/KonaSynthesizer.appex/Contents/MacOS/KonaSynthesizer -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "915",
+      "cmd": "/System/Library/PrivateFrameworks/TextToSpeech.framework/PlugIns/SiriAUSP.appex/Contents/MacOS/SiriAUSP -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "916",
+      "cmd": "/System/Library/PrivateFrameworks/MacinTalk.framework/Versions/A/PlugIns/MacinTalkAUSP.appex/Contents/MacOS/MacinTalkAUSP -AppleLanguages (\"en-US\", \"en\")",
+      "safe": false
+    },
+    {
+      "pid": "919",
+      "cmd": "/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/ModelCatalogAgent",
+      "safe": true
+    },
+    {
+      "pid": "931",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "934",
+      "cmd": "/System/Cryptexes/App/usr/libexec/SafariLaunchAgent",
+      "safe": true
+    },
+    {
+      "pid": "942",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "943",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "944",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "945",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "946",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "947",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/AUCrashHandlerService.xpc/Contents/MacOS/AUCrashHandlerService",
+      "safe": true
+    },
+    {
+      "pid": "949",
+      "cmd": "/System/Library/PrivateFrameworks/HearingCore.framework/heard",
+      "safe": true
+    },
+    {
+      "pid": "950",
+      "cmd": "/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd",
+      "safe": true
+    },
+    {
+      "pid": "954",
+      "cmd": "/System/Library/Image Capture/Support/icdd",
+      "safe": true
+    },
+    {
+      "pid": "956",
+      "cmd": "/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond",
+      "safe": true
+    },
+    {
+      "pid": "958",
+      "cmd": "/System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd",
+      "safe": true
+    },
+    {
+      "pid": "959",
+      "cmd": "/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent",
+      "safe": true
+    },
+    {
+      "pid": "961",
+      "cmd": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d",
+      "safe": true
+    },
+    {
+      "pid": "962",
+      "cmd": "/Applications/Contexts.app/Contents/MacOS/Contexts",
+      "safe": false
+    },
+    {
+      "pid": "963",
+      "cmd": "/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager",
+      "safe": true
+    },
+    {
+      "pid": "964",
+      "cmd": "/System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd",
+      "safe": true
+    },
+    {
+      "pid": "965",
+      "cmd": "/System/Library/DriverExtensions/IOUserBluetoothSerialDriver.dext/IOUserBluetoothSerialDriver com.apple.IOUserBluetoothSerialDriver 0x1000014d8 com.apple.IOUserBluetoothSerialDriver",
+      "safe": false
+    },
+    {
+      "pid": "966",
+      "cmd": "/System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher",
+      "safe": true
+    },
+    {
+      "pid": "967",
+      "cmd": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp",
+      "safe": true
+    },
+    {
+      "pid": "969",
+      "cmd": "/Applications/Cloudflare WARP.app/Contents/MacOS/Cloudflare WARP",
+      "safe": false
+    },
+    {
+      "pid": "970",
+      "cmd": "/System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition",
+      "safe": true
+    },
+    {
+      "pid": "976",
+      "cmd": "/usr/libexec/loginitemregisterd",
+      "safe": false
+    },
+    {
+      "pid": "987",
+      "cmd": "/usr/libexec/swtransparencyd",
+      "safe": true
+    },
+    {
+      "pid": "988",
+      "cmd": "/usr/libexec/gamecontrolleragentd",
+      "safe": true
+    },
+    {
+      "pid": "989",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "990",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "991",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "992",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport",
+      "safe": false
+    },
+    {
+      "pid": "993",
+      "cmd": "/usr/libexec/assetsubscriptiond",
+      "safe": false
+    },
+    {
+      "pid": "994",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "997",
+      "cmd": "/usr/libexec/promotedcontentd",
+      "safe": true
+    },
+    {
+      "pid": "998",
+      "cmd": "/System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/maild",
+      "safe": true
+    },
+    {
+      "pid": "1000",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "1001",
+      "cmd": "/System/Library/PrivateFrameworks/StocksKit.framework/XPCServices/StocksKitService.xpc/Contents/MacOS/StocksKitService",
+      "safe": true
+    },
+    {
+      "pid": "1002",
+      "cmd": "/System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XProtectBridgeService.xpc/Contents/MacOS/XProtectBridgeService",
+      "safe": true
+    },
+    {
+      "pid": "1003",
+      "cmd": "/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent",
+      "safe": false
+    },
+    {
+      "pid": "1004",
+      "cmd": "/usr/libexec/fairplaydeviceidentityd",
+      "safe": true
+    },
+    {
+      "pid": "1006",
+      "cmd": "/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/XPCServices/lockdownmoded",
+      "safe": true
+    },
+    {
+      "pid": "1007",
+      "cmd": "/System/Library/PrivateFrameworks/People.framework/peopled",
+      "safe": true
+    },
+    {
+      "pid": "1008",
+      "cmd": "/usr/libexec/proactived",
+      "safe": true
+    },
+    {
+      "pid": "1014",
+      "cmd": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent",
+      "safe": true
+    },
+    {
+      "pid": "1016",
+      "cmd": "/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService",
+      "safe": true
+    },
+    {
+      "pid": "1017",
+      "cmd": "/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent",
+      "safe": true
+    },
+    {
+      "pid": "1018",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "1019",
+      "cmd": "/System/Applications/Calendar.app/Contents/Extensions/CalendarIntentsExtension.appex/Contents/MacOS/CalendarIntentsExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuY2FsZW5kYXIuQ2FsZW5kYXJJbnRlbnRzRXh0ZW5zaW9uIiwidHlwZSI6MX0=",
+      "safe": false
+    },
+    {
+      "pid": "1021",
+      "cmd": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/Extensions/SafariLinkExtension.appex/Contents/MacOS/SafariLinkExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5TYWZhcmkuU2FmYXJpTGlua0V4dGVuc2lvbiIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlLCJ0eXBlIjoxfQ==",
+      "safe": false
+    },
+    {
+      "pid": "1022",
+      "cmd": "/System/Applications/Messages.app/Contents/Extensions/MessagesActionExtension.appex/Contents/MacOS/MessagesActionExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5Nb2JpbGVTTVMuTWVzc2FnZXNBY3Rpb25FeHRlbnNpb24iLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwidHlwZSI6MX0=",
+      "safe": false
+    },
+    {
+      "pid": "1023",
+      "cmd": "/System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService",
+      "safe": true
+    },
+    {
+      "pid": "1025",
+      "cmd": "/System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemd",
+      "safe": false
+    },
+    {
+      "pid": "1026",
+      "cmd": "/System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/XPCServices/SAExtensionOrchestrator.xpc/Contents/MacOS/SAExtensionOrchestrator",
+      "safe": true
+    },
+    {
+      "pid": "1027",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "1028",
+      "cmd": "/System/Library/ExtensionKit/Extensions/GMSSELFIngestor.appex/Contents/MacOS/GMSSELFIngestor -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5zaXJpLkdNU1NFTEZJbmdlc3RvciIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
+      "safe": false
+    },
+    {
+      "pid": "1029",
+      "cmd": "/System/Library/ExtensionKit/Extensions/IFTelemetrySELFIngestor.appex/Contents/MacOS/IFTelemetrySELFIngestor -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLklGVGVsZW1ldHJ5U0VMRkluZ2VzdG9yIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9",
+      "safe": false
+    },
+    {
+      "pid": "1030",
+      "cmd": "/System/Library/ExtensionKit/Extensions/IFTranscriptSELFIngestor.appex/Contents/MacOS/IFTranscriptSELFIngestor -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLklGVHJhbnNjcmlwdFNFTEZJbmdlc3RvciIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
+      "safe": false
+    },
+    {
+      "pid": "1031",
+      "cmd": "/System/Library/ExtensionKit/Extensions/BiomeSELFIngestor.appex/Contents/MacOS/BiomeSELFIngestor -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLkJpb21lU0VMRkluZ2VzdG9yIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9",
+      "safe": false
+    },
+    {
+      "pid": "1033",
+      "cmd": "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d",
+      "safe": true
+    },
+    {
+      "pid": "1034",
+      "cmd": "/usr/libexec/adprivacyd",
+      "safe": true
+    },
+    {
+      "pid": "1035",
+      "cmd": "/System/Library/PrivateFrameworks/WeatherDaemon.framework/weatherd",
+      "safe": true
+    },
+    {
+      "pid": "1039",
+      "cmd": "/System/Library/CoreServices/CrashReporterSupportHelper server-init",
+      "safe": true
+    },
+    {
+      "pid": "1046",
+      "cmd": "/System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/Versions/A/XPCServices/IntelligencePlatformComputeService.xpc/Contents/MacOS/IntelligencePlatformComputeService",
+      "safe": true
+    },
+    {
+      "pid": "1047",
+      "cmd": "/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/intelligencecontextd",
+      "safe": false
+    },
+    {
+      "pid": "1055",
+      "cmd": "/System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher",
+      "safe": true
+    },
+    {
+      "pid": "1056",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/managedcorespotlightd",
+      "safe": false
+    },
+    {
+      "pid": "1057",
+      "cmd": "/System/Library/PrivateFrameworks/AppPredictionFoundation.framework/Versions/A/XPCServices/AppPredictionIntentsHelperService.xpc/Contents/MacOS/AppPredictionIntentsHelperService",
+      "safe": true
+    },
+    {
+      "pid": "1062",
+      "cmd": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/ShortcutsViewService.xpc/Contents/MacOS/ShortcutsViewService",
+      "safe": false
+    },
+    {
+      "pid": "1064",
+      "cmd": "/Applications/Rectangle.app/Contents/MacOS/Rectangle",
+      "safe": false
+    },
+    {
+      "pid": "1066",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "1069",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fudHelperAgent",
+      "safe": true
+    },
+    {
+      "pid": "1072",
+      "cmd": "/System/Library/Frameworks/Contacts.framework/Support/contactsd",
+      "safe": true
+    },
+    {
+      "pid": "1074",
+      "cmd": "/usr/libexec/tipsd",
+      "safe": true
+    },
+    {
+      "pid": "1091",
+      "cmd": "/System/Library/Frameworks/StoreKit.framework/Support/storekitagent",
+      "safe": false
+    },
+    {
+      "pid": "1202",
+      "cmd": "/System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd",
+      "safe": true
+    },
+    {
+      "pid": "1206",
+      "cmd": "/System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell",
+      "safe": true
+    },
+    {
+      "pid": "1207",
+      "cmd": "/usr/libexec/keyboardservicesd",
+      "safe": true
+    },
+    {
+      "pid": "1211",
+      "cmd": "/usr/libexec/naturallanguaged",
+      "safe": true
+    },
+    {
+      "pid": "1214",
+      "cmd": "/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd",
+      "safe": false
+    },
+    {
+      "pid": "1215",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/remotemanagementd",
+      "safe": true
+    },
+    {
+      "pid": "1216",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SecuritySubscriber.xpc/Contents/MacOS/SecuritySubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1217",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "1218",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/InteractiveLegacyProfilesSubscriber.xpc/Contents/MacOS/InteractiveLegacyProfilesSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1219",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ScreenSharingSubscriber.xpc/Contents/MacOS/ScreenSharingSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1222",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/LegacyProfilesSubscriber.xpc/Contents/MacOS/LegacyProfilesSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1223",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/PasscodeSettingsSubscriber.xpc/Contents/MacOS/PasscodeSettingsSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1224",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/DiskManagementSubscriber.xpc/Contents/MacOS/DiskManagementSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "1225",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SoftwareUpdateSubscriber.xpc/Contents/MacOS/SoftwareUpdateSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "1226",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedAppsSubscriber.xpc/Contents/MacOS/ManagedAppsSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "1227",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagementTestSubscriber.xpc/Contents/MacOS/ManagementTestSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "1228",
+      "cmd": "/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond",
+      "safe": false
+    },
+    {
+      "pid": "1229",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedConfigurationFilesSubscriber.xpc/Contents/MacOS/ManagedConfigurationFilesSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "1241",
+      "cmd": "/System/Cryptexes/App/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent",
+      "safe": true
+    },
+    {
+      "pid": "1317",
+      "cmd": "/usr/libexec/feedbackd",
+      "safe": true
+    },
+    {
+      "pid": "1323",
+      "cmd": "/System/Library/PrivateFrameworks/BusinessChatService.framework/businessservicesd",
+      "safe": true
+    },
+    {
+      "pid": "1324",
+      "cmd": "/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesAirlockService.xpc/Contents/MacOS/MessagesAirlockService",
+      "safe": false
+    },
+    {
+      "pid": "1431",
+      "cmd": "/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd",
+      "safe": true
+    },
+    {
+      "pid": "1435",
+      "cmd": "/usr/libexec/relatived",
+      "safe": false
+    },
+    {
+      "pid": "1464",
+      "cmd": "/usr/libexec/mlhostd",
+      "safe": true
+    },
+    {
+      "pid": "1466",
+      "cmd": "/usr/libexec/ASPCarryLog",
+      "safe": true
+    },
+    {
+      "pid": "1480",
+      "cmd": "/System/Cryptexes/App/usr/libexec/PasswordBreachAgent",
+      "safe": true
+    },
+    {
+      "pid": "1772",
+      "cmd": "/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer",
+      "safe": true
+    },
+    {
+      "pid": "1776",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool",
+      "safe": true
+    },
+    {
+      "pid": "1831",
+      "cmd": "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter",
+      "safe": false
+    },
+    {
+      "pid": "1832",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "1894",
+      "cmd": "/usr/libexec/powerdatad",
+      "safe": false
+    },
+    {
+      "pid": "1907",
+      "cmd": "/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s",
+      "safe": false
+    },
+    {
+      "pid": "1915",
+      "cmd": "/System/Library/PrivateFrameworks/AppleVirtualPlatform.framework/Versions/A/XPCServices/AppleVirtualPlatformSystemService.xpc/Contents/MacOS/AppleVirtualPlatformSystemService",
+      "safe": false
+    },
+    {
+      "pid": "1920",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/XPCServices/SpeechSynthesisServerXPC.xpc/Contents/MacOS/SpeechSynthesisServerXPC",
+      "safe": false
+    },
+    {
+      "pid": "1927",
+      "cmd": "/System/Library/PrivateFrameworks/CoreLSKD.framework/Versions/A/lskdd",
+      "safe": true
+    },
+    {
+      "pid": "1970",
+      "cmd": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.EventTap.xpc/Contents/MacOS/com.apple.Virtualization.EventTap",
+      "safe": false
+    },
+    {
+      "pid": "2050",
+      "cmd": "/System/Library/PrivateFrameworks/WebPrivacy.framework/webprivacyd",
+      "safe": true
+    },
+    {
+      "pid": "2053",
+      "cmd": "/System/Library/Frameworks/ColorSync.framework/Versions/A/XPCServices/com.apple.ColorSyncXPCAgent.xpc/Contents/MacOS/com.apple.ColorSyncXPCAgent",
+      "safe": true
+    },
+    {
+      "pid": "2060",
+      "cmd": "/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine",
+      "safe": false
+    },
+    {
+      "pid": "2082",
+      "cmd": "/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/intelligenceplatformd",
+      "safe": true
+    },
+    {
+      "pid": "2156",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "2340",
+      "cmd": "/System/Library/PrivateFrameworks/AvatarPersistence.framework/Support/avatarsd",
+      "safe": true
+    },
+    {
+      "pid": "2346",
+      "cmd": "/System/Cryptexes/App/usr/libexec/AuthenticationServicesAgent",
+      "safe": true
+    },
+    {
+      "pid": "2347",
+      "cmd": "/usr/libexec/keychainsharingmessagingd",
+      "safe": false
+    },
+    {
+      "pid": "2540",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "2544",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2587",
+      "cmd": "/System/Cryptexes/App/usr/libexec/com.apple.Safari.History",
+      "safe": true
+    },
+    {
+      "pid": "2661",
+      "cmd": "/System/Library/ExtensionKit/Extensions/PackageThumbnailExtension.appex/Contents/MacOS/PackageThumbnailExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5xdWlja2xvb2sudGh1bWJuYWlsLlBhY2thZ2VFeHRlbnNpb24iLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwidHlwZSI6MX0=",
+      "safe": false
+    },
+    {
+      "pid": "2672",
+      "cmd": "/System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService",
+      "safe": false
+    },
+    {
+      "pid": "2693",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdwrite",
+      "safe": false
+    },
+    {
+      "pid": "2695",
+      "cmd": "/usr/libexec/diskimagesiod",
+      "safe": false
+    },
+    {
+      "pid": "2699",
+      "cmd": "/usr/libexec/fskit_agent",
+      "safe": false
+    },
+    {
+      "pid": "2702",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2704",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2710",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2711",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2713",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "2731",
+      "cmd": "/System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig",
+      "safe": true
+    },
+    {
+      "pid": "3128",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "3172",
+      "cmd": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "safe": false
+    },
+    {
+      "pid": "3308",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "3309",
+      "cmd": "/System/Library/ExtensionKit/Extensions/com.apple.fskit.msdos.appex/Contents/MacOS/com.apple.fskit.msdos -LaunchArguments eyJ0eXBlIjoxLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuZnNraXQubXNkb3MifQ==",
+      "safe": false
+    },
+    {
+      "pid": "3310",
+      "cmd": "/usr/libexec/fskit_helper",
+      "safe": true
+    },
+    {
+      "pid": "3349",
+      "cmd": "/System/Library/ExtensionKit/Extensions/AudiovisualThumbnailExtension.appex/Contents/MacOS/AudiovisualThumbnailExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5xdWlja2xvb2sudGh1bWJuYWlsLkF1ZGlvdmlzdWFsRXh0ZW5zaW9uIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9",
+      "safe": false
+    },
+    {
+      "pid": "3350",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "4038",
+      "cmd": "/System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Contents/MacOS/XprotectService",
+      "safe": false
+    },
+    {
+      "pid": "4039",
+      "cmd": "/System/Library/CoreServices/ReportCrash daemon",
+      "safe": true
+    },
+    {
+      "pid": "5162",
+      "cmd": "/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesAirlockService.xpc/Contents/MacOS/MessagesAirlockService",
+      "safe": false
+    },
+    {
+      "pid": "5168",
+      "cmd": "/System/Library/PrivateFrameworks/IMTranscoding.framework/XPCServices/IMTranscoderAgent.xpc/Contents/MacOS/IMTranscoderAgent",
+      "safe": false
+    },
+    {
+      "pid": "5169",
+      "cmd": "/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesAirlockService.xpc/Contents/MacOS/MessagesAirlockService",
+      "safe": false
+    },
+    {
+      "pid": "5170",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "5171",
+      "cmd": "/System/Library/PrivateFrameworks/IMTranscoding.framework/XPCServices/IMTranscoderAgent.xpc/Contents/MacOS/IMTranscoderAgent",
+      "safe": false
+    },
+    {
+      "pid": "5172",
+      "cmd": "/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesAirlockService.xpc/Contents/MacOS/MessagesAirlockService",
+      "safe": false
+    },
+    {
+      "pid": "5173",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "5174",
+      "cmd": "/usr/libexec/textunderstandingd",
+      "safe": false
+    },
+    {
+      "pid": "5175",
+      "cmd": "/System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd",
+      "safe": false
+    },
+    {
+      "pid": "5403",
+      "cmd": "/usr/libexec/mmaintenanced",
+      "safe": true
+    },
+    {
+      "pid": "5408",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5411",
+      "cmd": "/System/Library/PrivateFrameworks/ManagedBackgroundAssets.framework/Versions/A/XPCServices/Managed Background Assets Helper Service.xpc/Contents/MacOS/Managed Background Assets Helper Service",
+      "safe": false
+    },
+    {
+      "pid": "5424",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5425",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5426",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5431",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5432",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5433",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5445",
+      "cmd": "/usr/libexec/metrickitd",
+      "safe": true
+    },
+    {
+      "pid": "5446",
+      "cmd": "/usr/libexec/dprivacyd",
+      "safe": true
+    },
+    {
+      "pid": "5447",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5448",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "5450",
+      "cmd": "/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/XPCServices/DPSubmissionService.xpc/Contents/MacOS/DPSubmissionService",
+      "safe": false
+    },
+    {
+      "pid": "5463",
+      "cmd": "/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService",
+      "safe": true
+    },
+    {
+      "pid": "5475",
+      "cmd": "/System/Library/CoreServices/iconservicesagent runAsRoot",
+      "safe": true
+    },
+    {
+      "pid": "5558",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "5777",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "5778",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "6382",
+      "cmd": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/Support/DiskArbitrationAgent",
+      "safe": false
+    },
+    {
+      "pid": "6392",
+      "cmd": "/System/Library/CoreServices/IOUIAgent.app/Contents/MacOS/IOUIAgent",
+      "safe": false
+    },
+    {
+      "pid": "6490",
+      "cmd": "/usr/libexec/backgroundassets.user",
+      "safe": true
+    },
+    {
+      "pid": "6947",
+      "cmd": "/System/Library/Frameworks/PaperKit.framework/Contents/LinkedNotesUIService.app/Contents/MacOS/LinkedNotesUIService",
+      "safe": false
+    },
+    {
+      "pid": "7631",
+      "cmd": "/System/Library/Frameworks/Translation.framework/translationd",
+      "safe": true
+    },
+    {
+      "pid": "7633",
+      "cmd": "/System/Library/Frameworks/Speech.framework/Versions/A/XPCServices/localspeechrecognition.xpc/Contents/MacOS/localspeechrecognition",
+      "safe": true
+    },
+    {
+      "pid": "7684",
+      "cmd": "/System/Cryptexes/App/usr/libexec/SafariNotificationAgent",
+      "safe": true
+    },
+    {
+      "pid": "7685",
+      "cmd": "/System/Library/PrivateFrameworks/PassKitCore.framework/passd",
+      "safe": true
+    },
+    {
+      "pid": "8810",
+      "cmd": "/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd",
+      "safe": true
+    },
+    {
+      "pid": "8812",
+      "cmd": "/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService",
+      "safe": false
+    },
+    {
+      "pid": "8815",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "8816",
+      "cmd": "/usr/libexec/textcomposerd",
+      "safe": false
+    },
+    {
+      "pid": "8828",
+      "cmd": "/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributionagent",
+      "safe": false
+    },
+    {
+      "pid": "9157",
+      "cmd": "/usr/libexec/seserviced",
+      "safe": true
+    },
+    {
+      "pid": "9209",
+      "cmd": "/System/Library/PrivateFrameworks/MediaAnalysisAccess.framework/Versions/A/XPCServices/mediaanalysisd-access.xpc/Contents/MacOS/mediaanalysisd-access",
+      "safe": true
+    },
+    {
+      "pid": "9216",
+      "cmd": "/System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.privileged.xpc/Contents/MacOS/com.apple.StreamingUnzipService.privileged",
+      "safe": true
+    },
+    {
+      "pid": "10123",
+      "cmd": "/System/Library/PrivateFrameworks/GeoAnalytics.framework/geoanalyticsd",
+      "safe": true
+    },
+    {
+      "pid": "10526",
+      "cmd": "/usr/libexec/ciphermld",
+      "safe": true
+    },
+    {
+      "pid": "10546",
+      "cmd": "/usr/libexec/dprivacyd",
+      "safe": true
+    },
+    {
+      "pid": "10608",
+      "cmd": "/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect",
+      "safe": true
+    },
+    {
+      "pid": "10615",
+      "cmd": "/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect",
+      "safe": true
+    },
+    {
+      "pid": "11029",
+      "cmd": "/System/Library/PrivateFrameworks/MessagesBlastDoorSupport.framework/Versions/A/XPCServices/MessagesAirlockService.xpc/Contents/MacOS/MessagesAirlockService",
+      "safe": false
+    },
+    {
+      "pid": "11091",
+      "cmd": "/System/Library/PrivateFrameworks/PrivateCloudCompute.framework/privatecloudcomputed.app/Contents/MacOS/privatecloudcomputed",
+      "safe": false
+    },
+    {
+      "pid": "11284",
+      "cmd": "/usr/libexec/uarppersonalizationd",
+      "safe": false
+    },
+    {
+      "pid": "11526",
+      "cmd": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid",
+      "safe": false
+    },
+    {
+      "pid": "11532",
+      "cmd": "/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/XPCServices/com.apple.AppStoreDaemon.StorePrivilegedTaskService.xpc/Contents/MacOS/com.apple.AppStoreDaemon.StorePrivilegedTaskService",
+      "safe": false
+    },
+    {
+      "pid": "11730",
+      "cmd": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "safe": true
+    },
+    {
+      "pid": "11731",
+      "cmd": "/System/Applications/Shortcuts.app/Contents/PlugIns/ShortcutLiveActivityWidgetExtension.appex/Contents/MacOS/ShortcutLiveActivityWidgetExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5zaG9ydGN1dHMuU2hvcnRjdXRMaXZlQWN0aXZpdHlXaWRnZXQiLCJ0eXBlIjoxLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "safe": false
+    },
+    {
+      "pid": "11734",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "11735",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "13336",
+      "cmd": "/usr/libexec/proactiveeventtrackerd",
+      "safe": true
+    },
+    {
+      "pid": "15471",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "18100",
+      "cmd": "/System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/Resources/installerauthagent",
+      "safe": false
+    },
+    {
+      "pid": "18101",
+      "cmd": "/usr/libexec/NRDUpdated",
+      "safe": false
+    },
+    {
+      "pid": "18104",
+      "cmd": "/System/Library/AssetsV2/com_apple_MobileAsset_RecoveryOSUpdateBrain/9371324809bb4a58eff3fca0d087940d0674a77d.asset/AssetData/com.apple.NRD.UpdateBrainService.xpc/Contents/MacOS/com.apple.NRD.UpdateBrainService",
+      "safe": false
+    },
+    {
+      "pid": "18106",
+      "cmd": "/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent",
+      "safe": false
+    },
+    {
+      "pid": "18108",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice",
+      "safe": true
+    },
+    {
+      "pid": "18112",
+      "cmd": "/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd",
+      "safe": true
+    },
+    {
+      "pid": "18113",
+      "cmd": "/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent",
+      "safe": false
+    },
+    {
+      "pid": "18135",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "18136",
+      "cmd": "/System/Library/PrivateFrameworks/MediaConversionService.framework/Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/MacOS/com.apple.photos.ImageConversionService",
+      "safe": false
+    },
+    {
+      "pid": "21445",
+      "cmd": "/System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService",
+      "safe": true
+    },
+    {
+      "pid": "21446",
+      "cmd": "/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService",
+      "safe": true
+    },
+    {
+      "pid": "23364",
+      "cmd": "/usr/libexec/griddatad",
+      "safe": false
+    },
+    {
+      "pid": "23365",
+      "cmd": "/System/Library/PrivateFrameworks/UARPAssetManager.framework/XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/MacOS/UARPAssetManagerServiceMobileAsset",
+      "safe": false
+    },
+    {
+      "pid": "23366",
+      "cmd": "/usr/libexec/tzd",
+      "safe": true
+    },
+    {
+      "pid": "23367",
+      "cmd": "/System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XProtectUpdateService.xpc/Contents/MacOS/XProtectUpdateService",
+      "safe": true
+    },
+    {
+      "pid": "23368",
+      "cmd": "/System/Library/PrivateFrameworks/MapsSync.framework/mapssyncd",
+      "safe": true
+    },
+    {
+      "pid": "23372",
+      "cmd": "/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/Contents/MacOS/ANEStorageMaintainer",
+      "safe": true
+    },
+    {
+      "pid": "23374",
+      "cmd": "/usr/sbin/distnoted agent",
+      "safe": true
+    },
+    {
+      "pid": "23375",
+      "cmd": "/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANEStorageMaintainer.xpc/Contents/MacOS/ANEStorageMaintainer",
+      "safe": true
+    },
+    {
+      "pid": "23376",
+      "cmd": "/usr/sbin/cfprefsd agent",
+      "safe": true
+    },
+    {
+      "pid": "23378",
+      "cmd": "/usr/libexec/sysdiagnosed",
+      "safe": true
+    },
+    {
+      "pid": "23416",
+      "cmd": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer",
+      "safe": true
+    },
+    {
+      "pid": "23417",
+      "cmd": "/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPLibraryAgent --launchd",
+      "safe": true
+    },
+    {
+      "pid": "23418",
+      "cmd": "/System/Library/PrivateFrameworks/PodcastServices.framework/XPCServices/PodcastContentService.xpc/Contents/MacOS/PodcastContentService",
+      "safe": true
+    },
+    {
+      "pid": "23419",
+      "cmd": "/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd",
+      "safe": true
+    },
+    {
+      "pid": "23576",
+      "cmd": "/System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert",
+      "safe": true
+    },
+    {
+      "pid": "23652",
+      "cmd": "/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/Versions/A/knowledgeconstructiond",
+      "safe": false
+    },
+    {
+      "pid": "23686",
+      "cmd": "/usr/libexec/mlruntimed",
+      "safe": false
+    },
+    {
+      "pid": "24917",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/RemoteManagementAgent",
+      "safe": true
+    },
+    {
+      "pid": "24919",
+      "cmd": "/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/SafariConfigurationSubscriber.xpc/Contents/MacOS/SafariConfigurationSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24920",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SecuritySubscriber.xpc/Contents/MacOS/SecuritySubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24921",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/InteractiveLegacyProfilesSubscriber.xpc/Contents/MacOS/InteractiveLegacyProfilesSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24922",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ScreenSharingSubscriber.xpc/Contents/MacOS/ScreenSharingSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24926",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/LegacyProfilesSubscriber.xpc/Contents/MacOS/LegacyProfilesSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24927",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/PasscodeSettingsSubscriber.xpc/Contents/MacOS/PasscodeSettingsSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24928",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/AccountSubscriber.xpc/Contents/MacOS/AccountSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24929",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedAppsSubscriber.xpc/Contents/MacOS/ManagedAppsSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "24930",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagementTestSubscriber.xpc/Contents/MacOS/ManagementTestSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24931",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ASConfigurationSubscriber.xpc/Contents/MacOS/ASConfigurationSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "24932",
+      "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedSettingsSubscriber.xpc/Contents/MacOS/ManagedSettingsSubscriber",
+      "safe": true
+    },
+    {
+      "pid": "25244",
+      "cmd": "/System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd",
+      "safe": true
+    },
+    {
+      "pid": "25291",
+      "cmd": "/System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService",
+      "safe": false
+    },
+    {
+      "pid": "25413",
+      "cmd": "/usr/libexec/filevaultd",
+      "safe": false
+    },
+    {
+      "pid": "28212",
+      "cmd": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdsync -s mdworker-scan -c MDSSyncScanWorker -m com.apple.metadata.mds.scan",
+      "safe": false
+    },
+    {
+      "pid": "29190",
+      "cmd": "/usr/libexec/microstackshot",
+      "safe": true
+    },
+    {
+      "pid": "33482",
+      "cmd": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "safe": true
+    },
+    {
+      "pid": "33484",
+      "cmd": "/usr/libexec/secinitd",
+      "safe": true
+    },
+    {
+      "pid": "33486",
+      "cmd": "/usr/libexec/trustd --agent",
+      "safe": true
+    },
+    {
+      "pid": "33487",
+      "cmd": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "safe": true
+    },
+    {
+      "pid": "34103",
+      "cmd": "/System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent",
+      "safe": true
+    },
+    {
+      "pid": "35439",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "35440",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "35630",
+      "cmd": "/System/Library/PrivateFrameworks/MobileDevice.framework/Resources/MobileDeviceUpdater.app/Contents/MacOS/MobileDeviceUpdater",
+      "safe": false
+    },
+    {
+      "pid": "35714",
+      "cmd": "/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/XPCServices/MDRemoteServiceSupport.xpc/Contents/MacOS/MDRemoteServiceSupport",
+      "safe": false
+    },
+    {
+      "pid": "35715",
+      "cmd": "/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/XPCServices/MDRemoteServiceSupport.xpc/Contents/MacOS/MDRemoteServiceSupport",
+      "safe": false
+    },
+    {
+      "pid": "44475",
+      "cmd": "/System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/Support/contactsdonationagent",
+      "safe": true
+    },
+    {
+      "pid": "44476",
+      "cmd": "/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent",
+      "safe": true
+    },
+    {
+      "pid": "44477",
+      "cmd": "/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated",
+      "safe": false
+    },
+    {
+      "pid": "46169",
+      "cmd": "/System/Library/Frameworks/ShazamKit.framework/shazamd",
+      "safe": false
+    },
+    {
+      "pid": "54693",
+      "cmd": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+      "safe": true
+    },
+    {
+      "pid": "65314",
+      "cmd": "/usr/libexec/misagent",
+      "safe": false
+    },
+    {
+      "pid": "65848",
+      "cmd": "/usr/libexec/GamePolicyAgent",
+      "safe": false
+    },
+    {
+      "pid": "65849",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "66399",
+      "cmd": "/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/EAUpdaterService.xpc/Contents/MacOS/EAUpdaterService",
+      "safe": true
+    },
+    {
+      "pid": "69409",
+      "cmd": "/System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper",
+      "safe": true
+    },
+    {
+      "pid": "74544",
+      "cmd": "/System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd",
+      "safe": true
+    },
+    {
+      "pid": "75141",
+      "cmd": "/System/Library/PrivateFrameworks/CoreSpeech.framework/Versions/A/XPCServices/CoreSpeechXPC.xpc/Contents/MacOS/CoreSpeechXPC",
+      "safe": false
+    },
+    {
+      "pid": "75968",
+      "cmd": "/System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime",
+      "safe": true
+    },
+    {
+      "pid": "75970",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "75971",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "75972",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "75991",
+      "cmd": "/System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha",
+      "safe": false
+    },
+    {
+      "pid": "76113",
+      "cmd": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "safe": true
+    },
+    {
+      "pid": "76114",
+      "cmd": "/System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService",
+      "safe": true
+    },
+    {
+      "pid": "76115",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "76116",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "76127",
+      "cmd": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "safe": false
+    },
+    {
+      "pid": "76129",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/tal/Library/Application Support/BraveSoftware/Brave-Browser/Crashpad --metrics-dir=/Users/tal/Library/Application Support/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=plat=OS X --annotation=prod=Brave_Mac --annotation=ver=143.1.85.116 --handshake-fd=5",
+      "safe": false
+    },
+    {
+      "pid": "76134",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (GPU).app/Contents/MacOS/Brave Browser Helper (GPU) --type=gpu-process --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --start-stack-profiler --gpu-preferences=SAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --metrics-shmem-handle=1752395122,r,10112580945760217774,15958492288848958060,262144 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=34",
+      "safe": false
+    },
+    {
+      "pid": "76135",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --start-stack-profiler --shared-files --metrics-shmem-handle=1752395122,r,12050402380684111389,3711490201732086559,524288 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=34",
+      "safe": false
+    },
+    {
+      "pid": "76136",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,15428269412596080268,15578353058245716952,524288 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190708990060038890 --seatbelt-client=56",
+      "safe": false
+    },
+    {
+      "pid": "76138",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "76143",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=150729095029 --shared-files --metrics-shmem-handle=1752395122,r,14115127646630338221,6462783268298657773,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190708996619331833 --seatbelt-client=108",
+      "safe": false
+    },
+    {
+      "pid": "76186",
+      "cmd": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTEncoderXPCService.xpc/Contents/MacOS/VTEncoderXPCService",
+      "safe": false
+    },
+    {
+      "pid": "76187",
+      "cmd": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/XPCServices/SpeechSynthesisServerXPC.xpc/Contents/MacOS/SpeechSynthesisServerXPC",
+      "safe": false
+    },
+    {
+      "pid": "76190",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --message-loop-type-ui --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,7127491817280965721,14294922253946090716,524288 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709032226922095 --seatbelt-client=173",
+      "safe": false
+    },
+    {
+      "pid": "76191",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Plugin).app/Contents/MacOS/Brave Browser Helper (Plugin) --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-US --service-sandbox-type=none --message-loop-type-ui --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,4620258289840503792,16757666092481322061,524288 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709033163963944",
+      "safe": false
+    },
+    {
+      "pid": "76192",
+      "cmd": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "safe": false
+    },
+    {
+      "pid": "76194",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "76196",
+      "cmd": "/System/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal",
+      "safe": true
+    },
+    {
+      "pid": "76202",
+      "cmd": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "safe": false
+    },
+    {
+      "pid": "76204",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "76205",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "76206",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "76232",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "76316",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=60 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=150863043470 --shared-files --metrics-shmem-handle=1752395122,r,3093238705892983601,5171407155660759389,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709042534382434 --seatbelt-client=173",
+      "safe": false
+    },
+    {
+      "pid": "76789",
+      "cmd": "/usr/libexec/remindd",
+      "safe": false
+    },
+    {
+      "pid": "76911",
+      "cmd": "/usr/sbin/netbiosd",
+      "safe": true
+    },
+    {
+      "pid": "76982",
+      "cmd": "/System/Library/CryptoTokenKit/usbsmartcardreaderd.slotd/Contents/MacOS/usbsmartcardreaderd",
+      "safe": false
+    },
+    {
+      "pid": "77017",
+      "cmd": "/usr/libexec/PerfPowerServices",
+      "safe": true
+    },
+    {
+      "pid": "78145",
+      "cmd": "/Applications/Spotify.app/Contents/MacOS/Spotify",
+      "safe": false
+    },
+    {
+      "pid": "78163",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --monitor-self-annotation=ptype=crashpad-handler --type=crashpad-handler --max-uploads=5 --max-db-size=20 --max-db-age=5 --database=/Users/tal/Library/Caches/com.spotify.client --url=https://crashdump.spotify.com:443/ --annotation=platform=macosarm64 --annotation=product=spotify --annotation=version=1.2.78.418 --handshake-fd=6",
+      "safe": false
+    },
+    {
+      "pid": "78165",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper (GPU).app/Contents/MacOS/Spotify Helper (GPU) --type=gpu-process --start-stack-profiler --user-data-dir=/Users/tal/Library/Caches/com.spotify.client --log-severity=disable --user-agent-product=Chrome/142.0.7444.176 Spotify/1.2.78.418 --gpu-preferences=SAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --metrics-shmem-handle=1752395122,r,13858296704860080946,921778701778415184,262144 --field-trial-handle=1718379636,r,267119804267538468,1935964605390716544,262144 --disable-features=BackForwardCache,FullscreenBubbleShowOrigin,GatherProcessRequirementMetrics,GlicActorUi,LensOverlay,MacAppCodeSignClone,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr,StorageNotificationService --variations-seed-version --trace-process-track-uuid=3190708988185955192 --seatbelt-client=27",
+      "safe": false
+    },
+    {
+      "pid": "78167",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en --service-sandbox-type=network --start-stack-profiler --user-data-dir=/Users/tal/Library/Caches/com.spotify.client --log-severity=disable --user-agent-product=Chrome/142.0.7444.176 Spotify/1.2.78.418 --shared-files --metrics-shmem-handle=1752395122,r,10564273151162779610,7286795662332079334,524288 --field-trial-handle=1718379636,r,267119804267538468,1935964605390716544,262144 --disable-features=BackForwardCache,FullscreenBubbleShowOrigin,GatherProcessRequirementMetrics,GlicActorUi,LensOverlay,MacAppCodeSignClone,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr,StorageNotificationService --variations-seed-version --trace-process-track-uuid=3190708989122997041 --seatbelt-client=27",
+      "safe": false
+    },
+    {
+      "pid": "78168",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en --service-sandbox-type=service --user-data-dir=/Users/tal/Library/Caches/com.spotify.client --log-severity=disable --user-agent-product=Chrome/142.0.7444.176 Spotify/1.2.78.418 --shared-files --metrics-shmem-handle=1752395122,r,6491128951187345739,11050282684136162533,524288 --field-trial-handle=1718379636,r,267119804267538468,1935964605390716544,262144 --disable-features=BackForwardCache,FullscreenBubbleShowOrigin,GatherProcessRequirementMetrics,GlicActorUi,LensOverlay,MacAppCodeSignClone,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr,StorageNotificationService --variations-seed-version --trace-process-track-uuid=3190708990060038890 --seatbelt-client=44",
+      "safe": false
+    },
+    {
+      "pid": "78171",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "78172",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper (Renderer).app/Contents/MacOS/Spotify Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --start-stack-profiler --user-data-dir=/Users/tal/Library/Caches/com.spotify.client --log-severity=disable --user-agent-product=Chrome/142.0.7444.176 Spotify/1.2.78.418 --autoplay-policy=no-user-gesture-required --lang=en --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1765571534961051 --launch-time-ticks=152463652192 --shared-files --metrics-shmem-handle=1752395122,r,1947772313388375122,5896972017598926001,2097152 --field-trial-handle=1718379636,r,267119804267538468,1935964605390716544,262144 --disable-features=BackForwardCache,FullscreenBubbleShowOrigin,GatherProcessRequirementMetrics,GlicActorUi,LensOverlay,MacAppCodeSignClone,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr,StorageNotificationService --variations-seed-version --trace-process-track-uuid=3190708992871164437 --seatbelt-client=144",
+      "safe": false
+    },
+    {
+      "pid": "78263",
+      "cmd": "/Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=utility --utility-sub-type=media.mojom.CdmServiceBroker --lang=en --service-sandbox-type=cdm --user-data-dir=/Users/tal/Library/Caches/com.spotify.client --log-severity=disable --user-agent-product=Chrome/142.0.7444.176 Spotify/1.2.78.418 --shared-files --metrics-shmem-handle=1752395122,r,754897588452455273,11937459686504297450,524288 --field-trial-handle=1718379636,r,267119804267538468,1935964605390716544,262144 --disable-features=BackForwardCache,FullscreenBubbleShowOrigin,GatherProcessRequirementMetrics,GlicActorUi,LensOverlay,MacAppCodeSignClone,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr,StorageNotificationService --variations-seed-version --trace-process-track-uuid=3190708998493415531 --seatbelt-client=269",
+      "safe": false
+    },
+    {
+      "pid": "78268",
+      "cmd": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTEncoderXPCService.xpc/Contents/MacOS/VTEncoderXPCService",
+      "safe": false
+    },
+    {
+      "pid": "78787",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/MacOS/Electron .",
+      "safe": false
+    },
+    {
+      "pid": "78789",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Electron Framework.framework/Helpers/chrome_crashpad_handler --no-rate-limit --monitor-self-annotation=ptype=crashpad-handler --database=/Users/tal/Library/Application Support/Code/Crashpad --url=appcenter://code?aid=be71415d-3893-4ae5-b453-e537b9668a10&uid=88d9e85f-c2b3-408e-959c-b4e5b1b206f1&iid=88d9e85f-c2b3-408e-959c-b4e5b1b206f1&sid=88d9e85f-c2b3-408e-959c-b4e5b1b206f1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.107.0 --annotation=plat=OS X --annotation=prod=Electron --annotation=ver=39.2.3 --handshake-fd=21",
+      "safe": false
+    },
+    {
+      "pid": "78790",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (GPU).app/Contents/MacOS/Code Helper (GPU) --type=gpu-process --user-data-dir=/Users/tal/Library/Application Support/Code --gpu-preferences=SAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708988185955192 --seatbelt-client=33",
+      "safe": false
+    },
+    {
+      "pid": "78791",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041 --seatbelt-client=34",
+      "safe": false
+    },
+    {
+      "pid": "78793",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1765571534962763 --launch-time-ticks=152770099150 --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708990060038890 --vscode-window-config=vscode:c7bb9e5d-d9f1-4afc-acc2-1c0ba17bae36 --seatbelt-client=62",
+      "safe": false
+    },
+    {
+      "pid": "78794",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708990997080739",
+      "safe": false
+    },
+    {
+      "pid": "78795",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708991934122588",
+      "safe": false
+    },
+    {
+      "pid": "78796",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708992871164437",
+      "safe": false
+    },
+    {
+      "pid": "78797",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708993808206286",
+      "safe": false
+    },
+    {
+      "pid": "78805",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "78813",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --max-old-space-size=3072 /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript501/47e3198eb53deba0d0bd/tscancellation-53ec39878a914149375f.tmp* --globalPlugins @vscode/copilot-typescript-server-plugin --pluginProbeLocations /Users/tal/.vscode/extensions/github.copilot-chat-0.35.0 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc",
+      "safe": false
+    },
+    {
+      "pid": "78814",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --max-old-space-size=3072 /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript501/47e3198eb53deba0d0bd/tscancellation-c50228f3bc25d8a038f0.tmp* --globalPlugins @vscode/copilot-typescript-server-plugin --pluginProbeLocations /Users/tal/.vscode/extensions/github.copilot-chat-0.35.0 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc",
+      "safe": false
+    },
+    {
+      "pid": "78817",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /Users/tal/Library/Caches/typescript/5.9 --enableTelemetry --typesMapLocation /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation",
+      "safe": false
+    },
+    {
+      "pid": "78867",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=78797",
+      "safe": false
+    },
+    {
+      "pid": "78972",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS/prl_client_app --start-services",
+      "safe": false
+    },
+    {
+      "pid": "78990",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS//Parallels Service start",
+      "safe": false
+    },
+    {
+      "pid": "78991",
+      "cmd": "/bin/bash -p -s -- start /Applications/Parallels Desktop.app",
+      "safe": false
+    },
+    {
+      "pid": "78998",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Service.app/Contents/MacOS/prl_disp_service --pidfile /var/run/prl_disp_service.pid --launchd-mode",
+      "safe": false
+    },
+    {
+      "pid": "79000",
+      "cmd": "/bin/bash -p /Applications/Parallels Desktop.app/Contents/MacOS/watchdog start 60 20 /Applications/Parallels Desktop.app/Contents/MacOS/prl_naptd start",
+      "safe": false
+    },
+    {
+      "pid": "79022",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS/prl_naptd start",
+      "safe": false
+    },
+    {
+      "pid": "79025",
+      "cmd": "/usr/libexec/InternetSharing",
+      "safe": false
+    },
+    {
+      "pid": "79028",
+      "cmd": "/usr/libexec/dhcp6d",
+      "safe": false
+    },
+    {
+      "pid": "79041",
+      "cmd": "/System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd",
+      "safe": false
+    },
+    {
+      "pid": "79143",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79197",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS/prl_client_app",
+      "safe": false
+    },
+    {
+      "pid": "79232",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "79245",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS/Parallels Mac VM.app/Contents/MacOS/prl_macvm_app --openvm /Users/tal/Parallels/macOS.macvm --uuid {d55c3f71-0574-4805-8d7b-13ab9db30523} --dir-uuid {1fb46f06-05be-48e0-94f5-1342dca25933} --log-dir /Users/tal/Parallels/macOS.macvm",
+      "safe": false
+    },
+    {
+      "pid": "79246",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "79247",
+      "cmd": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+      "safe": false
+    },
+    {
+      "pid": "79248",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79250",
+      "cmd": "/System/Library/PrivateFrameworks/AppleVirtualPlatform.framework/Versions/A/PlugIns/com.apple.AppleVirtualPlatform.Identity.Virtio.vzplugin/Contents/MacOS/com.apple.Virtualization.AppleVirtualPlatformIdentity",
+      "safe": false
+    },
+    {
+      "pid": "79253",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79254",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79255",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79256",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79257",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79258",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79259",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79260",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79261",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79262",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79263",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79264",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79265",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79266",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79267",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79268",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79269",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79270",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79271",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79272",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79273",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79274",
+      "cmd": "/System/Library/Frameworks/ParavirtualizedGraphics.framework/Versions/A/XPCServices/com.apple.gpusw.ParavirtualizedGraphicsGPUTask.xpc/Contents/MacOS/com.apple.gpusw.ParavirtualizedGraphicsGPUTask",
+      "safe": false
+    },
+    {
+      "pid": "79275",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79276",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79277",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79278",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79279",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79280",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79292",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=112 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152832419577 --shared-files --metrics-shmem-handle=1752395122,r,473576438207761655,11846326451732162427,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709091260558582 --seatbelt-client=164",
+      "safe": false
+    },
+    {
+      "pid": "79293",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=113 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152832429077 --shared-files --metrics-shmem-handle=1752395122,r,13474039197704903732,12630578239300476409,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709092197600431 --seatbelt-client=164",
+      "safe": false
+    },
+    {
+      "pid": "79295",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=114 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152834039745 --shared-files --metrics-shmem-handle=1752395122,r,16258164751290090224,8365062205169719791,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709093134642280 --seatbelt-client=164",
+      "safe": false
+    },
+    {
+      "pid": "79297",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=115 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152836689040 --shared-files --metrics-shmem-handle=1752395122,r,13940029917250044313,4093118453213252744,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709094071684129 --seatbelt-client=164",
+      "safe": false
+    },
+    {
+      "pid": "79300",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79314",
+      "cmd": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "safe": true
+    },
+    {
+      "pid": "79315",
+      "cmd": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService",
+      "safe": true
+    },
+    {
+      "pid": "79343",
+      "cmd": "/Users/tal/.vscode/extensions/ms-python.python-2025.20.0-darwin-arm64/python-env-tools/bin/pet server",
+      "safe": false
+    },
+    {
+      "pid": "79356",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) /Users/tal/.vscode/extensions/ms-python.vscode-pylance-2025.10.4/dist/server.bundle.js --cancellationReceive=file:6d656117c289c268ce21238bbdb97f8df582b0b6f4 --node-ipc --clientProcessId=78797",
+      "safe": false
+    },
+    {
+      "pid": "79380",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=118 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152961432943 --shared-files --metrics-shmem-handle=1752395122,r,3129590679875748810,11707341088472038453,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709096882809676 --seatbelt-client=62",
+      "safe": false
+    },
+    {
+      "pid": "79389",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=120 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=152977018173 --shared-files --metrics-shmem-handle=1752395122,r,10077699628331189449,1197714501011486082,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709098756893374 --seatbelt-client=62",
+      "safe": false
+    },
+    {
+      "pid": "79416",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=122 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153039674566 --shared-files --metrics-shmem-handle=1752395122,r,2877208767308794658,3177848147968784181,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709100630977072 --seatbelt-client=194",
+      "safe": false
+    },
+    {
+      "pid": "79420",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=123 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153044052835 --shared-files --metrics-shmem-handle=1752395122,r,17724465629859386886,1990056798442779364,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709101568018921 --seatbelt-client=195",
+      "safe": false
+    },
+    {
+      "pid": "79450",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=127 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153109304316 --shared-files --metrics-shmem-handle=1752395122,r,13357825662044579378,4970736239759628148,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709105316186317 --seatbelt-client=187",
+      "safe": false
+    },
+    {
+      "pid": "79451",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=128 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153111205319 --shared-files --metrics-shmem-handle=1752395122,r,16308377863856732780,3175134712739028051,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709106253228166 --seatbelt-client=62",
+      "safe": false
+    },
+    {
+      "pid": "79456",
+      "cmd": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService",
+      "safe": false
+    },
+    {
+      "pid": "79457",
+      "cmd": "/System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService",
+      "safe": true
+    },
+    {
+      "pid": "79458",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "79459",
+      "cmd": "/System/Library/PrivateFrameworks/CSExattrCrypto.framework/Versions/A/XPCServices/CSExattrCryptoService.xpc/Contents/MacOS/CSExattrCryptoService",
+      "safe": false
+    },
+    {
+      "pid": "79460",
+      "cmd": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "safe": false
+    },
+    {
+      "pid": "79506",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=131 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153228030285 --shared-files --metrics-shmem-handle=1752395122,r,8557362318326698769,3718115013453232181,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709109064353713 --seatbelt-client=154",
+      "safe": false
+    },
+    {
+      "pid": "79609",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/tal/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1765571534962763 --launch-time-ticks=153387628267 --shared-files --field-trial-handle=1718379636,r,16667132543356513755,16767009769000392804,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135 --vscode-window-config=vscode:c7bb9e5d-d9f1-4afc-acc2-1c0ba17bae36 --seatbelt-client=106",
+      "safe": false
+    },
+    {
+      "pid": "79617",
+      "cmd": "/Users/tal/.vscode/extensions/anthropic.claude-code-2.0.65-darwin-arm64/resources/native-binary/claude --output-format stream-json --verbose --input-format stream-json --max-thinking-tokens 31999 --model opus --permission-prompt-tool stdio --mcp-config {\"mcpServers\":{\"claude-vscode\":{\"type\":\"sdk\",\"name\":\"claude-vscode\"}}} --setting-sources user,project,local --permission-mode default --include-partial-messages --debug --debug-to-stderr --enable-auth-status",
+      "safe": false
+    },
+    {
+      "pid": "79697",
+      "cmd": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "safe": true
+    },
+    {
+      "pid": "79727",
+      "cmd": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features/server/dist/node/cssServerMain --node-ipc --clientProcessId=78797",
+      "safe": false
+    },
+    {
+      "pid": "79743",
+      "cmd": "/System/Library/PrivateFrameworks/CSExattrCrypto.framework/Versions/A/XPCServices/CSExattrCryptoService.xpc/Contents/MacOS/CSExattrCryptoService",
+      "safe": false
+    },
+    {
+      "pid": "79746",
+      "cmd": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ThemeWidgetControlViewService.xpc/Contents/MacOS/ThemeWidgetControlViewService",
+      "safe": false
+    },
+    {
+      "pid": "79768",
+      "cmd": "/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent",
+      "safe": false
+    },
+    {
+      "pid": "79772",
+      "cmd": "/Applications/Parallels Desktop.app/Contents/MacOS//Parallels VM.app/Contents/MacOS/prl_vm_app --vm-name Kali Linux --uuid {c61329a5-3fc1-413a-9ba1-0d0dd91de888} --dir-uuid {1fb46f06-05be-48e0-94f5-1342dca25933} --log-dir /Users/tal/Parallels/Kali Linux.pvm",
+      "safe": false
+    },
+    {
+      "pid": "79776",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "79777",
+      "cmd": "/Users/tal/Parallels/Kali Linux.pvm/Kali Linux.app/Contents/MacOS/WinAppHelper --ivmid 0",
+      "safe": false
+    },
+    {
+      "pid": "79780",
+      "cmd": "/Users/tal/Parallels/Kali Linux.pvm/Kali Linux.app/Contents/MacOS/WinAppHelper --fakestub --ivmid 0",
+      "safe": false
+    },
+    {
+      "pid": "79781",
+      "cmd": "/System/Library/Frameworks/ImageIO.framework/Versions/A/XPCServices/ImageIOXPCService.xpc/Contents/MacOS/ImageIOXPCService",
+      "safe": false
+    },
+    {
+      "pid": "79782",
+      "cmd": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "safe": false
+    },
+    {
+      "pid": "80020",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=150 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153771332648 --shared-files --metrics-shmem-handle=1752395122,r,15166880283484644556,4667778423390129527,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709126868148844 --seatbelt-client=182",
+      "safe": false
+    },
+    {
+      "pid": "80021",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=149 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=153771333069 --shared-files --metrics-shmem-handle=1752395122,r,3498721800646206751,5608325018269395165,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709125931106995 --seatbelt-client=182",
+      "safe": false
+    },
+    {
+      "pid": "80871",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "81100",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,16778679995520437847,12942086579596118477,524288 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709149357153220 --seatbelt-client=166",
+      "safe": false
+    },
+    {
+      "pid": "81104",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=175 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=155098329253 --shared-files --metrics-shmem-handle=1752395122,r,11580532701039694083,13741132425949531902,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709150294195069 --seatbelt-client=61",
+      "safe": false
+    },
+    {
+      "pid": "81105",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=176 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=155098340709 --shared-files --metrics-shmem-handle=1752395122,r,3896211339226403125,7553228945761473459,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709151231236918 --seatbelt-client=61",
+      "safe": false
+    },
+    {
+      "pid": "81112",
+      "cmd": "sleep 60",
+      "safe": false
+    },
+    {
+      "pid": "81119",
+      "cmd": "/usr/sbin/cupsd -l",
+      "safe": false
+    },
+    {
+      "pid": "81143",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=177 --time-ticks-at-unix-epoch=-1765543615294685 --launch-time-ticks=155151939317 --shared-files --metrics-shmem-handle=1752395122,r,3363384317796327078,13309108235962587509,2097152 --field-trial-handle=1718379636,r,17360798002886538046,14966359380679869429,262144 --variations-seed-version=main@86482723e393da8d94ccb7893d9d1977c21e0b42 --trace-process-track-uuid=3190709152168278767 --seatbelt-client=166",
+      "safe": false
+    },
+    {
+      "pid": "76197",
+      "cmd": "login -pf tal /bin/zsh",
+      "safe": false
+    },
+    {
+      "pid": "76198",
+      "cmd": "-zsh",
+      "safe": true
+    },
+    {
+      "pid": "78232",
+      "cmd": "vim Dec14-2025",
+      "safe": false
+    },
+    {
+      "pid": "78676",
+      "cmd": "login -pf tal /bin/zsh",
+      "safe": false
+    },
+    {
+      "pid": "78677",
+      "cmd": "-zsh",
+      "safe": true
+    },
+    {
+      "pid": "78806",
+      "cmd": "/bin/zsh -l",
+      "safe": false
+    },
+    {
+      "pid": "79953",
+      "cmd": "/bin/sh /Users/tal/Library/pnpm/pnpm dev",
+      "safe": false
+    },
+    {
+      "pid": "79959",
+      "cmd": "/Users/tal/Library/pnpm/.tools/@pnpm+macos-arm64/10.24.0/node_modules/@pnpm/macos-arm64/pnpm dev",
+      "safe": false
+    },
+    {
+      "pid": "79964",
+      "cmd": "node /Users/tal/wudan/dojo/host_enumeration/node_modules/.bin/../.pnpm/next@16.0.7_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/bin/next dev",
+      "safe": false
+    },
+    {
+      "pid": "79970",
+      "cmd": "next-server (v16.0.7) ",
+      "safe": false
+    },
+    {
+      "pid": "80026",
+      "cmd": "node /Users/tal/wudan/dojo/host_enumeration/.next/dev/build/postcss.js 52132",
+      "safe": false
+    },
+    {
+      "pid": "78807",
+      "cmd": "/bin/zsh -l",
+      "safe": false
+    },
+    {
+      "pid": "80003",
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python /Users/tal/wudan/dojo/host_enumeration/venv/bin/fastapi dev server.py",
+      "safe": false
+    },
+    {
+      "pid": "80008",
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.resource_tracker import main;main(4)",
+      "safe": false
+    },
+    {
+      "pid": "80009",
+      "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=5, pipe_handle=7) --multiprocessing-fork",
+      "safe": false
+    },
+    {
+      "pid": "81147",
+      "cmd": "lsof -Pni",
+      "safe": false
+    },
+    {
+      "pid": "81148",
+      "cmd": "ps -A",
+      "safe": true
+    },
+    {
+      "pid": "79355",
+      "cmd": "/bin/zsh",
+      "safe": false
+    },
+    {
+      "pid": "79519",
+      "cmd": "login -pf tal /bin/zsh",
+      "safe": false
+    },
+    {
+      "pid": "79520",
+      "cmd": "-zsh",
+      "safe": true
+    },
+    {
+      "pid": "79597",
+      "cmd": "vim art",
+      "safe": false
+    }
+  ]
+}

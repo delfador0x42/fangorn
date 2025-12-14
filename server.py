@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import subprocess
 from dataclasses import dataclass
+from datetime import datetime
 from typing import List
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from macos_system_daemons import MACOS_PROBABLY_KNOWN_SYSTEM_DAEMONS
+from storage import save_snapshot, get_snapshot_list, get_snapshot, cleanup_old_snapshots
 
 
 # Example usage
@@ -137,7 +139,7 @@ def run_command(cmd: List[str]) -> str:
 
 @app.get("/", tags=["info"])
 def root():
-	return {"message": "System info server is running", "endpoints": ["/lsof_endpoint", "/ps_endpoint"]}
+	return {"message": "System info server is running", "endpoints": ["/lsof_endpoint", "/ps_endpoint"], "timestamp": datetime.now().isoformat()}
 
 
 @app.get("/lsof_endpoint", response_model=LsofResponse, tags=["system"])
@@ -145,7 +147,8 @@ def get_lsof_connections():
 	output = run_command(["lsof", "-Pni"])
 	connections = parse_lsof_output(output)
 
-	return {
+	response_data = {
+		"timestamp": datetime.now().isoformat(),
 		"connections": [
 			{
 				"command": c.command,
@@ -162,15 +165,62 @@ def get_lsof_connections():
 		]
 	}
 
+	# Auto-save snapshot and cleanup old ones
+	save_snapshot("lsof", response_data)
+	cleanup_old_snapshots("lsof", keep_count=10)
+
+	return response_data
+
 
 @app.get("/ps_endpoint", response_model=ProcessListResponse, tags=["system"])
 def get_process_list():
 	output = run_command(["ps", "-A"])
 	processes = parse_ps_output(output)
 
-	return {
+	response_data = {
+		"timestamp": datetime.now().isoformat(),
 		"process_list": [
 			{"pid": p.pid, "cmd": p.cmd, "safe": p.safe}
 			for p in processes
 		]
 	}
+
+	# Auto-save snapshot and cleanup old ones
+	save_snapshot("ps", response_data)
+	cleanup_old_snapshots("ps", keep_count=10)
+
+	return response_data
+
+
+# ======================
+# History Routes
+# ======================
+
+@app.get("/history/ps", tags=["history"])
+def get_ps_history():
+	"""Get list of all ps snapshots."""
+	return {"snapshots": get_snapshot_list("ps")}
+
+
+@app.get("/history/lsof", tags=["history"])
+def get_lsof_history():
+	"""Get list of all lsof snapshots."""
+	return {"snapshots": get_snapshot_list("lsof")}
+
+
+@app.get("/history/ps/{timestamp}", tags=["history"])
+def get_ps_snapshot(timestamp: str):
+	"""Get specific ps snapshot by timestamp."""
+	data = get_snapshot("ps", timestamp)
+	if data is None:
+		raise HTTPException(status_code=404, detail=f"Snapshot not found: {timestamp}")
+	return data
+
+
+@app.get("/history/lsof/{timestamp}", tags=["history"])
+def get_lsof_snapshot(timestamp: str):
+	"""Get specific lsof snapshot by timestamp."""
+	data = get_snapshot("lsof", timestamp)
+	if data is None:
+		raise HTTPException(status_code=404, detail=f"Snapshot not found: {timestamp}")
+	return data
