@@ -304,13 +304,9 @@ body::after {
   width: 280px;
   height: 100vh;
   background: rgba(5, 15, 25, 0.95);
-  border-right: 1px solid var(--neon-cyan);
-  box-shadow: 5px 0 20px rgba(0, 240, 255, 0.1);
   z-index: 100;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  transition: width 0.3s ease;
 }
 
 /* Star button for collapsed state - free floating */
@@ -457,7 +453,7 @@ body::after {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 16px;
+  padding: 2px 16px;
   background: rgba(0, 240, 255, 0.1);
   border: 1px solid var(--neon-cyan);
   color: var(--neon-cyan);
@@ -466,7 +462,7 @@ body::after {
   position: relative;
   overflow: hidden;
   font-family: inherit;
-  animation: pulse-glow 2s ease-in-out infinite;
+  /* animation: pulse-glow 2s ease-in-out infinite; */
 }
 
 .expand-btn::before {
@@ -497,9 +493,7 @@ body::after {
 
 .expand-icon {
   font-size: 1.5rem;
-  font-weight: bold;
-  transition: transform 0.3s ease;
-  text-shadow: 0 0 10px var(--neon-cyan);
+  font-weight: lighter;
 }
 
 .expand-btn.expanded .expand-icon {
@@ -582,18 +576,6 @@ body::after {
   font-size: 0.7rem;
 }
 
-/* Sidebar info */
-.sidebar-info {
-  margin-top: auto;
-  padding-top: 15px;
-  border-top: 1px solid rgba(0, 240, 255, 0.2);
-}
-
-.info-count {
-  font-size: 0.65rem;
-  color: var(--text-dim);
-  letter-spacing: 0.1em;
-}
 
 /* Animations */
 @keyframes dropdown-slide {
@@ -642,4 +624,139 @@ body::after {
 .main-content {
   position: relative;
   z-index: 1;
+}
+
+/* ============================================
+   PROCESS ROW STYLES
+   ============================================ */
+
+.process-row {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.process-row:hover {
+  background: rgba(0, 240, 255, 0.15);
+  transform: translateX(5px);
+}
+
+/* Unknown process - yellow highlight */
+.unknown-process {
+  background: rgba(240, 255, 0, 0.15);
+}
+
+.unknown-process td {
+  color: var(--neon-yellow);
+  text-shadow: 0 0 8px rgba(240, 255, 0, 0.5);
+}
+
+.unknown-process:hover {
+  background: rgba(240, 255, 0, 0.25);
+}
+
+/* ============================================
+   PROCESS DETAIL PAGE STYLES
+   ============================================ */
+
+.process-detail-page {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--neon-cyan);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border: 1px solid var(--neon-cyan);
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: rgba(0, 240, 255, 0.1);
+  box-shadow: var(--glow-cyan);
+}
+
+.process-title {
+  font-size: 2.5rem;
+  color: var(--neon-cyan);
+  text-shadow: var(--glow-cyan);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--neon-cyan);
+}
+
+.man-page-container {
+  background: rgba(5, 15, 25, 0.95);
+  border: 1px solid var(--neon-cyan);
+  box-shadow: var(--glow-cyan);
+}
+
+.man-page-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 20px;
+  background: linear-gradient(180deg, rgba(0, 240, 255, 0.15) 0%, rgba(0, 240, 255, 0.05) 100%);
+  border-bottom: 1px solid var(--neon-cyan);
+}
+
+.man-badge {
+  background: var(--neon-cyan);
+  color: var(--bg-deep);
+  padding: 5px 15px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.man-section {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+.man-page-content {
+  padding: 30px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-bright);
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.no-man-page {
+  text-align: center;
+  padding: 60px 40px;
+  background: rgba(240, 255, 0, 0.05);
+  border: 1px solid var(--neon-yellow);
+}
+
+.warning-icon {
+  font-size: 3rem;
+  color: var(--neon-yellow);
+  text-shadow: 0 0 20px rgba(240, 255, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.no-man-page p {
+  color: var(--neon-yellow);
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  margin: 10px 0;
+}
+
+.warning-subtext {
+  color: var(--text-dim) !important;
+  font-size: 0.9rem !important;
 }

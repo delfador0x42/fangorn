@@ -58,23 +58,20 @@ export default function HistorySidebar({
 				onClick={onToggleCollapse}
 				title="Expand history sidebar"
 			>
-				<pre className="star-icon">{`
-
-             .                      .
+				<pre className="star-icon">{`             .                      .
              .                      ;
              :                  - --+- -
              !                      !
              |                      .
-             |_          
+             |_
           ,  | \`.
  ------ --+-<#>-+- ---  --  -
           \`._|_,'
              T
              |
              !
-             :            
-             .        
-             `}</pre>
+             :
+             .`}</pre>
 			</button>
 		);
 	}
@@ -139,12 +136,6 @@ export default function HistorySidebar({
 				)}
 			</div>
 
-			{/* Info text */}
-			<div className="sidebar-info">
-				<span className="info-count">
-					{currentSnapshots.length} snapshots stored
-				</span>
-			</div>
 		</aside>
 	);
 }

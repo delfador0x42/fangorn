@@ -12,6 +12,7 @@ interface MainViewProps {
 	initialLsofData: Connection[];
 	psSnapshots: SnapshotMeta[];
 	lsofSnapshots: SnapshotMeta[];
+	manPageNames: string[];
 }
 
 export default function MainView({
@@ -19,6 +20,7 @@ export default function MainView({
 	initialLsofData,
 	psSnapshots,
 	lsofSnapshots,
+	manPageNames,
 }: MainViewProps) {
 	// Current data being displayed
 	const [psData, setPsData] = useState<Process[]>(initialPsData);
@@ -63,7 +65,7 @@ export default function MainView({
 			{/* Main content area - leave space for sidebar */}
 			<div className="main-content" style={{ marginLeft: isSidebarCollapsed ? "0" : "300px", transition: "margin-left 0.3s ease" }}>
 				<ConnectionsPanel connections={lsofData} />
-				<ProcessPanel processes={psData} />
+				<ProcessPanel processes={psData} manPageNames={manPageNames} />
 			</div>
 
 			{/* History sidebar */}

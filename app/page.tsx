@@ -2,13 +2,15 @@ import MainView from "@/app/ui/MainView";
 import { getlsofdata } from "@/app/ui/get_lsof_data";
 import { getpsdata } from "@/app/ui/get_ps_data";
 import { getAllSnapshotLists } from "@/app/ui/get_history";
+import { getManPageList } from "@/app/ui/get_manpages";
 
 export default async function Home() {
   // Fetch all data sources in parallel
-  const [lsofData, psData, snapshotLists] = await Promise.all([
+  const [lsofData, psData, snapshotLists, manPageNames] = await Promise.all([
     getlsofdata(),
     getpsdata(),
     getAllSnapshotLists(),
+    getManPageList(),
   ]);
 
   return (
@@ -17,6 +19,7 @@ export default async function Home() {
       initialLsofData={lsofData.connections}
       psSnapshots={snapshotLists.psSnapshots}
       lsofSnapshots={snapshotLists.lsofSnapshots}
+      manPageNames={manPageNames}
     />
   );
 }
