@@ -1,25 +1,55 @@
-import MainView from "@/app/ui/MainView";
-import { getlsofdata } from "@/app/ui/get_lsof_data";
-import { getpsdata } from "@/app/ui/get_ps_data";
-import { getAllSnapshotLists } from "@/app/ui/get_history";
-import { getManPageList } from "@/app/ui/get_manpages";
+"use client";
 
-export default async function Home() {
-  // Fetch all data sources in parallel
-  const [lsofData, psData, snapshotLists, manPageNames] = await Promise.all([
-    getlsofdata(),
-    getpsdata(),
-    getAllSnapshotLists(),
-    getManPageList(),
-  ]);
+import { useEffect, useState } from "react";
+import MainView from "@/app/ui/MainView";
+import { getAllData, Process, Connection, SnapshotMeta } from "@/app/lib/api";
+
+interface AppData {
+  processes: Process[];
+  connections: Connection[];
+  psSnapshots: SnapshotMeta[];
+  lsofSnapshots: SnapshotMeta[];
+  manPageNames: string[];
+}
+
+export default function Home() {
+  const [data, setData] = useState<AppData | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    getAllData()
+      .then(setData)
+      .catch((err) => setError(err.message));
+  }, []);
+
+  if (error) {
+    return (
+      <div className="error-screen">
+        <div className="error-content">
+          <h1>CONNECTION ERROR</h1>
+          <p>Failed to connect to server at localhost:5001</p>
+          <p className="error-detail">{error}</p>
+          <button onClick={() => window.location.reload()}>RETRY</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!data) {
+    return (
+      <div className="loading-screen">
+        <div className="loading-text">INITIALIZING...</div>
+      </div>
+    );
+  }
 
   return (
     <MainView
-      initialPsData={psData.process_list}
-      initialLsofData={lsofData.connections}
-      psSnapshots={snapshotLists.psSnapshots}
-      lsofSnapshots={snapshotLists.lsofSnapshots}
-      manPageNames={manPageNames}
+      initialPsData={data.processes}
+      initialLsofData={data.connections}
+      psSnapshots={data.psSnapshots}
+      lsofSnapshots={data.lsofSnapshots}
+      manPageNames={data.manPageNames}
     />
   );
 }

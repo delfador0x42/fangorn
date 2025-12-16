@@ -4,8 +4,8 @@ import { useState } from "react";
 import ConnectionsPanel from "./lsofPanel";
 import ProcessPanel from "./psPanel";
 import HistorySidebar from "./HistorySidebar";
-import { getSnapshot } from "./get_history";
-import { SnapshotMeta, Process, Connection, PsSnapshot, LsofSnapshot } from "./types";
+import ProcessDetailModal from "./ProcessDetailModal";
+import { getPsSnapshot, getLsofSnapshot, Process, Connection, SnapshotMeta } from "@/app/lib/api";
 
 interface MainViewProps {
 	initialPsData: Process[];
@@ -36,20 +36,21 @@ export default function MainView({
 	// Sidebar collapsed state
 	const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
+	// Selected process for detail modal
+	const [selectedProcess, setSelectedProcess] = useState<string | null>(null);
+
 	const handleSelectSnapshot = async (type: "ps" | "lsof", timestamp: string) => {
 		setIsLoading(true);
 
 		try {
-			const data = await getSnapshot(type, timestamp);
-
-			if (data) {
-				if (type === "ps") {
-					setSelectedPsTimestamp(timestamp);
-					setPsData((data as PsSnapshot).process_list);
-				} else {
-					setSelectedLsofTimestamp(timestamp);
-					setLsofData((data as LsofSnapshot).connections);
-				}
+			if (type === "ps") {
+				const data = await getPsSnapshot(timestamp);
+				setSelectedPsTimestamp(timestamp);
+				setPsData(data.process_list);
+			} else {
+				const data = await getLsofSnapshot(timestamp);
+				setSelectedLsofTimestamp(timestamp);
+				setLsofData(data.connections);
 			}
 		} catch (err) {
 			console.error("Failed to load snapshot:", err);
@@ -65,7 +66,11 @@ export default function MainView({
 			{/* Main content area - leave space for sidebar */}
 			<div className="main-content" style={{ marginLeft: isSidebarCollapsed ? "0" : "300px", transition: "margin-left 0.3s ease" }}>
 				<ConnectionsPanel connections={lsofData} />
-				<ProcessPanel processes={psData} manPageNames={manPageNames} />
+				<ProcessPanel
+					processes={psData}
+					manPageNames={manPageNames}
+					onSelectProcess={setSelectedProcess}
+				/>
 			</div>
 
 			{/* History sidebar */}
@@ -77,6 +82,12 @@ export default function MainView({
 				currentLsofTimestamp={selectedLsofTimestamp}
 				isCollapsed={isSidebarCollapsed}
 				onToggleCollapse={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
+			/>
+
+			{/* Process detail modal */}
+			<ProcessDetailModal
+				processName={selectedProcess}
+				onClose={() => setSelectedProcess(null)}
 			/>
 
 			{/* Loading overlay */}

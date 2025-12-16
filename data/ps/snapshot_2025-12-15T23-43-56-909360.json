@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-15T21:58:08.670705",
+  "timestamp": "2025-12-15T23:43:56.909106",
   "process_list": [
     {
       "pid": "1",
@@ -435,6 +435,11 @@
       "pid": "442",
       "cmd": "/usr/libexec/symptomsd",
       "safe": true
+    },
+    {
+      "pid": "445",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1359 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306440758860 --shared-files --metrics-shmem-handle=1752395122,r,5221374792848012621,1850916524440755933,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710259751744285 --seatbelt-client=190",
+      "safe": false
     },
     {
       "pid": "463",
@@ -2442,6 +2447,21 @@
       "safe": true
     },
     {
+      "pid": "1059",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,2530699708039916611,13354636892904163848,524288 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710268185120926 --seatbelt-client=176",
+      "safe": false
+    },
+    {
+      "pid": "1060",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1369 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306623060770 --shared-files --metrics-shmem-handle=1752395122,r,11422551756084457632,16078398371981091479,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710269122162775 --seatbelt-client=176",
+      "safe": false
+    },
+    {
+      "pid": "1061",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1370 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306623072512 --shared-files --metrics-shmem-handle=1752395122,r,10979386404721479867,9920853403426257013,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710270059204624 --seatbelt-client=176",
+      "safe": false
+    },
+    {
       "pid": "1062",
       "cmd": "/System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/ShortcutsViewService.xpc/Contents/MacOS/ShortcutsViewService",
       "safe": false
@@ -2462,6 +2482,11 @@
       "safe": true
     },
     {
+      "pid": "1070",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1371 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306631972842 --shared-files --metrics-shmem-handle=1752395122,r,8604362690080347005,2601016232817478360,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710270996246473 --seatbelt-client=176",
+      "safe": false
+    },
+    {
       "pid": "1072",
       "cmd": "/System/Library/Frameworks/Contacts.framework/Support/contactsd",
       "safe": true
@@ -2472,8 +2497,23 @@
       "safe": true
     },
     {
+      "pid": "1079",
+      "cmd": "/usr/libexec/biomesyncd",
+      "safe": true
+    },
+    {
+      "pid": "1085",
+      "cmd": "sleep 60",
+      "safe": false
+    },
+    {
       "pid": "1091",
       "cmd": "/System/Library/Frameworks/StoreKit.framework/Support/storekitagent",
+      "safe": false
+    },
+    {
+      "pid": "1120",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1372 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306674354141 --shared-files --metrics-shmem-handle=1752395122,r,14836035746020185282,14618869002952390888,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710271933288322 --seatbelt-client=185",
       "safe": false
     },
     {
@@ -2564,6 +2604,11 @@
     {
       "pid": "1229",
       "cmd": "/System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/ManagedConfigurationFilesSubscriber.xpc/Contents/MacOS/ManagedConfigurationFilesSubscriber",
+      "safe": false
+    },
+    {
+      "pid": "1234",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1373 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=306700421458 --shared-files --metrics-shmem-handle=1752395122,r,15239239711061468068,4327546939319182276,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710272870330171 --seatbelt-client=176",
       "safe": false
     },
     {
@@ -4272,33 +4317,33 @@
       "safe": false
     },
     {
-      "pid": "96649",
-      "cmd": "/usr/sbin/cupsd -l",
+      "pid": "97017",
+      "cmd": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "safe": true
+    },
+    {
+      "pid": "97254",
+      "cmd": "/usr/libexec/remindd",
       "safe": false
     },
     {
-      "pid": "96655",
-      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --shared-files --metrics-shmem-handle=1752395122,r,5575798625450532427,6377390254464999175,524288 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710057350704901 --seatbelt-client=189",
+      "pid": "97358",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1169 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=301149858381 --shared-files --metrics-shmem-handle=1752395122,r,12935488318427792430,12940222445673137356,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710081713792975 --seatbelt-client=176",
       "safe": false
     },
     {
-      "pid": "96656",
-      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1144 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=300292347747 --shared-files --metrics-shmem-handle=1752395122,r,10907552680068561000,16025607408011978688,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710058287746750 --seatbelt-client=189",
+      "pid": "97383",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1170 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=301184354787 --shared-files --metrics-shmem-handle=1752395122,r,9331198598580547219,13106420678534054420,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710082650834824 --seatbelt-client=176",
       "safe": false
     },
     {
-      "pid": "96657",
-      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1145 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=300292769868 --shared-files --metrics-shmem-handle=1752395122,r,12856977971193348402,16836480751329562565,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710059224788599 --seatbelt-client=189",
+      "pid": "97707",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1210 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=301678211039 --shared-files --metrics-shmem-handle=1752395122,r,12550534393741828587,7119714322736663907,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710120132508784 --seatbelt-client=184",
       "safe": false
     },
     {
-      "pid": "96661",
-      "cmd": "sleep 60",
-      "safe": false
-    },
-    {
-      "pid": "96701",
-      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1147 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=300352954939 --shared-files --metrics-shmem-handle=1752395122,r,18276162873921194279,16994327434045350653,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710061098872297 --seatbelt-client=191",
+      "pid": "99983",
+      "cmd": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/143.1.85.116/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=d894aeae-e579-44ce-bf57-9685a1137be7 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=1343 --time-ticks-at-unix-epoch=-1765571534975954 --launch-time-ticks=305861929070 --shared-files --metrics-shmem-handle=1752395122,r,4110134548410453504,16225126469690739795,2097152 --field-trial-handle=1718379636,r,4126754578117427612,12318493881883645963,262144 --variations-seed-version=main@896677830e9ae594e062c51e1dfab3e6cd73793a --trace-process-track-uuid=3190710244759074701 --seatbelt-client=189",
       "safe": false
     },
     {
@@ -4357,33 +4402,33 @@
       "safe": true
     },
     {
-      "pid": "77568",
-      "cmd": "/bin/zsh -l",
-      "safe": false
-    },
-    {
-      "pid": "77944",
+      "pid": "1187",
       "cmd": "/bin/sh /Users/tal/Library/pnpm/pnpm dev",
       "safe": false
     },
     {
-      "pid": "77950",
+      "pid": "1193",
       "cmd": "/Users/tal/Library/pnpm/.tools/@pnpm+macos-arm64/10.24.0/node_modules/@pnpm/macos-arm64/pnpm dev",
       "safe": false
     },
     {
-      "pid": "77956",
+      "pid": "1199",
       "cmd": "node /Users/tal/wudan/dojo/host_enumeration/node_modules/.bin/../.pnpm/next@16.0.7_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/bin/next dev",
       "safe": false
     },
     {
-      "pid": "77962",
+      "pid": "1208",
       "cmd": "next-server (v16.0.7) ",
       "safe": false
     },
     {
-      "pid": "78043",
-      "cmd": "node /Users/tal/wudan/dojo/host_enumeration/.next/dev/build/postcss.js 53814",
+      "pid": "1236",
+      "cmd": "node /Users/tal/wudan/dojo/host_enumeration/.next/dev/build/postcss.js 56404",
+      "safe": false
+    },
+    {
+      "pid": "77568",
+      "cmd": "/bin/zsh -l",
       "safe": false
     },
     {
@@ -4400,6 +4445,16 @@
       "pid": "79597",
       "cmd": "vim art",
       "safe": false
+    },
+    {
+      "pid": "1237",
+      "cmd": "lsof -Pni",
+      "safe": false
+    },
+    {
+      "pid": "1238",
+      "cmd": "ps -A",
+      "safe": true
     },
     {
       "pid": "77569",
@@ -4420,16 +4475,6 @@
       "pid": "78013",
       "cmd": "/Library/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -c from multiprocessing.spawn import spawn_main; spawn_main(tracker_fd=5, pipe_handle=7) --multiprocessing-fork",
       "safe": false
-    },
-    {
-      "pid": "96702",
-      "cmd": "lsof -Pni",
-      "safe": false
-    },
-    {
-      "pid": "96703",
-      "cmd": "ps -A",
-      "safe": true
     },
     {
       "pid": "78006",

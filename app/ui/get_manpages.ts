@@ -53,7 +53,8 @@ export async function getBasename(cmd: string): Promise<string> {
  */
 export async function hasManPage(cmd: string): Promise<boolean> {
 	const manPages = await getManPageNames();
-	return manPages.has(getBasename(cmd));
+	const basename = await getBasename(cmd);
+	return manPages.has(basename);
 }
 
 /**

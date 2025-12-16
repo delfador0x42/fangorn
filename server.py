@@ -3,13 +3,18 @@ from __future__ import annotations
 import subprocess
 from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import List
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from macos_system_daemons import MACOS_PROBABLY_KNOWN_SYSTEM_DAEMONS
 from storage import save_snapshot, get_snapshot_list, get_snapshot, cleanup_old_snapshots
+
+# Man pages directory
+MAN8_DIR = Path(__file__).parent / "man8_copy"
 
 
 # Example usage
@@ -22,6 +27,15 @@ if is_known_system_process("/sbin/launchd"):
 
 
 app = FastAPI(title="System Info API")
+
+# Enable CORS for Tauri app
+app.add_middleware(
+	CORSMiddleware,
+	allow_origins=["*"],
+	allow_credentials=True,
+	allow_methods=["*"],
+	allow_headers=["*"],
+)
 
 
 # ======================
@@ -224,3 +238,39 @@ def get_lsof_snapshot(timestamp: str):
 	if data is None:
 		raise HTTPException(status_code=404, detail=f"Snapshot not found: {timestamp}")
 	return data
+
+
+# ======================
+# Man Page Routes
+# ======================
+
+@app.get("/manpages", tags=["manpages"])
+def get_manpage_list():
+	"""Get list of all available man page names."""
+	if not MAN8_DIR.exists():
+		return {"names": []}
+
+	names = [
+		f.stem for f in MAN8_DIR.iterdir()
+		if f.is_file() and f.suffix == ".8"
+	]
+	return {"names": sorted(names)}
+
+
+@app.get("/manpages/{name}", tags=["manpages"])
+def get_manpage_content(name: str):
+	"""Get content of a specific man page."""
+	file_path = MAN8_DIR / f"{name}.8"
+
+	if not file_path.exists():
+		raise HTTPException(status_code=404, detail=f"Man page not found: {name}")
+
+	try:
+		content = file_path.read_text()
+		return {"name": name, "content": content}
+	except Exception as e:
+		raise HTTPException(status_code=500, detail=f"Error reading man page: {e}")
+
+
+
+

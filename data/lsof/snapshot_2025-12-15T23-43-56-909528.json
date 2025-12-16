@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-15T21:58:21.369599",
+  "timestamp": "2025-12-15T23:43:56.909485",
   "connections": [
     {
       "command": "rapportd",
@@ -134,15 +134,191 @@
       "name": "*:*"
     },
     {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "17u",
+      "type": "IPv6",
+      "device": "0xfa9c16312a6f0f26",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "*:3000 (LISTEN)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "25u",
+      "type": "IPv6",
+      "device": "0xffb5507c0b792993",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "[::1]:3000->[::1]:56401 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "27u",
+      "type": "IPv4",
+      "device": "0x44f243fad607c5d1",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56402->142.251.46.202:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "29u",
+      "type": "IPv4",
+      "device": "0xbc4d118f995a2760",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56403->142.251.46.202:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "30u",
+      "type": "IPv4",
+      "device": "0xfb96870560b86f44",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56408->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "32u",
+      "type": "IPv4",
+      "device": "0xf8ffabdd8d16f664",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56404->127.0.0.1:56405 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "34u",
+      "type": "IPv4",
+      "device": "0x58bf83838b6e5457",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56406->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "35u",
+      "type": "IPv4",
+      "device": "0xb838734311114d36",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56407->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "36u",
+      "type": "IPv4",
+      "device": "0xd266f426a1093d75",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56410->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "37u",
+      "type": "IPv4",
+      "device": "0xa0a10f143ef8d744",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56411->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "38u",
+      "type": "IPv4",
+      "device": "0xd622f0a1cde3381e",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56412->127.0.0.1:8000 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "39u",
+      "type": "IPv4",
+      "device": "0x2deca9f7158e08f0",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56409->142.251.46.163:443 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "40u",
+      "type": "IPv4",
+      "device": "0x99638cbd2d59a959",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56413->127.0.0.1:8000 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "41u",
+      "type": "IPv4",
+      "device": "0xc991134202f97332",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56414->127.0.0.1:8000 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1208",
+      "user": "tal",
+      "fd": "42u",
+      "type": "IPv4",
+      "device": "0x642ee27351bf7fb0",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56415->127.0.0.1:8000 (ESTABLISHED)"
+    },
+    {
+      "command": "node",
+      "pid": "1236",
+      "user": "tal",
+      "fd": "12u",
+      "type": "IPv4",
+      "device": "0x288c6c97c423992",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "127.0.0.1:56405->127.0.0.1:56404 (ESTABLISHED)"
+    },
+    {
       "command": "Brave\\x20",
       "pid": "59419",
       "user": "tal",
       "fd": "26u",
       "type": "IPv6",
-      "device": "0x66dd672e2dad9b87",
+      "device": "0xbb67ccad9c6b8dd2",
       "size_offset": "0t0",
-      "node": "UDP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:65384->[2607:f8b0:4005:80d::200e]:443"
+      "node": "TCP",
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56315->[2a06:98c1:3107::6812:2715]:443 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
@@ -150,10 +326,10 @@
       "user": "tal",
       "fd": "30u",
       "type": "IPv4",
-      "device": "0xd266f426a1093d75",
+      "device": "0xd63b3c95aba52e48",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "172.16.0.2:54268->140.82.114.26:443 (ESTABLISHED)"
+      "name": "172.16.0.2:56394->140.82.113.26:443 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
@@ -161,10 +337,10 @@
       "user": "tal",
       "fd": "32u",
       "type": "IPv6",
-      "device": "0xfdd0856bc6c8b6a",
+      "device": "0x6ebeaff027f17d9d",
       "size_offset": "0t0",
-      "node": "TCP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:53887->[2a06:98c1:3107::6812:2715]:443 (ESTABLISHED)"
+      "node": "UDP",
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:53624->[2607:f8b0:4005:80f::200e]:443"
     },
     {
       "command": "Brave\\x20",
@@ -172,10 +348,10 @@
       "user": "tal",
       "fd": "33u",
       "type": "IPv4",
-      "device": "0x79d7853b4ab5eb5",
+      "device": "0xc3b237e0b799f6a3",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "172.16.0.2:53802->185.70.42.37:443 (ESTABLISHED)"
+      "name": "172.16.0.2:56255->185.70.42.37:443 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
@@ -183,43 +359,21 @@
       "user": "tal",
       "fd": "36u",
       "type": "IPv6",
-      "device": "0x6e70cd54320d44b1",
-      "size_offset": "0t0",
-      "node": "UDP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:64131->[2607:f8b0:4009:c::7]:443"
-    },
-    {
-      "command": "Brave\\x20",
-      "pid": "59419",
-      "user": "tal",
-      "fd": "37u",
-      "type": "IPv6",
-      "device": "0xbf3ff43320e3c5de",
-      "size_offset": "0t0",
-      "node": "UDP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:55486->[2803:f800:53::3]:443"
-    },
-    {
-      "command": "Brave\\x20",
-      "pid": "59419",
-      "user": "tal",
-      "fd": "38u",
-      "type": "IPv6",
-      "device": "0x13760defaa136ff7",
+      "device": "0x8a72d809725a22fa",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[::1]:54353->[::1]:3000 (ESTABLISHED)"
+      "name": "[::1]:56401->[::1]:3000 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
       "pid": "59419",
       "user": "tal",
-      "fd": "40u",
+      "fd": "39u",
       "type": "IPv6",
-      "device": "0xd622f0a1cde3381e",
+      "device": "0x519ed883619887a",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[::1]:54354->[::1]:3000 (ESTABLISHED)"
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56335->[2a06:98c1:3107::6812:2715]:443 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
@@ -227,10 +381,43 @@
       "user": "tal",
       "fd": "41u",
       "type": "IPv6",
-      "device": "0x772c2b75452d7f5a",
+      "device": "0x4fb9d490d6fc9389",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[::1]:54352->[::1]:3000 (ESTABLISHED)"
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56338->[2607:f8b0:4005:812::2004]:443 (ESTABLISHED)"
+    },
+    {
+      "command": "Brave\\x20",
+      "pid": "59419",
+      "user": "tal",
+      "fd": "43u",
+      "type": "IPv6",
+      "device": "0x1a01775f1b704f82",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56334->[2a06:98c1:310b::ac40:9bd1]:443 (ESTABLISHED)"
+    },
+    {
+      "command": "Brave\\x20",
+      "pid": "59419",
+      "user": "tal",
+      "fd": "52u",
+      "type": "IPv4",
+      "device": "0xccd860db772c47e7",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "172.16.0.2:56387->198.252.206.1:443 (ESTABLISHED)"
+    },
+    {
+      "command": "Brave\\x20",
+      "pid": "59419",
+      "user": "tal",
+      "fd": "61u",
+      "type": "IPv6",
+      "device": "0x6d1e72a1fed122",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56390->[2607:f8b0:4005:814::2001]:443 (ESTABLISHED)"
     },
     {
       "command": "Brave\\x20",
@@ -414,10 +601,10 @@
       "user": "tal",
       "fd": "50u",
       "type": "IPv4",
-      "device": "0x8bf39d5215bd10f",
+      "device": "0xb5d3fc1368773704",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "*:54332 (LISTEN)"
+      "name": "*:56308 (LISTEN)"
     },
     {
       "command": "Spotify",
@@ -425,7 +612,7 @@
       "user": "tal",
       "fd": "59u",
       "type": "IPv4",
-      "device": "0x816e0126f303e97d",
+      "device": "0x90e624cf7eecac74",
       "size_offset": "0t0",
       "node": "UDP",
       "name": "*:57621"
@@ -478,23 +665,12 @@
       "command": "Spotify",
       "pid": "71678",
       "user": "tal",
-      "fd": "24u",
-      "type": "IPv6",
-      "device": "0x44f243fad607c5d1",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:54340->[2607:f8b0:4023:1c01::bc]:5228 (ESTABLISHED)"
-    },
-    {
-      "command": "Spotify",
-      "pid": "71678",
-      "user": "tal",
       "fd": "26u",
       "type": "IPv6",
-      "device": "0xbc4d118f995a2760",
+      "device": "0xac0720afb40df99c",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:53007->[2607:f8b0:4005:813::200a]:443 (CLOSED)"
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56234->[2607:f8b0:4005:812::2003]:443 (CLOSED)"
     },
     {
       "command": "Spotify",
@@ -502,10 +678,21 @@
       "user": "tal",
       "fd": "27u",
       "type": "IPv6",
-      "device": "0xb5d3fc1368773704",
+      "device": "0xfdd0856bc6c8b6a",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:52987->[2600:1901:1:7c5::]:443 (CLOSED)"
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56121->[2600:1901:1:7c5::]:443 (CLOSED)"
+    },
+    {
+      "command": "Spotify",
+      "pid": "71678",
+      "user": "tal",
+      "fd": "28u",
+      "type": "IPv6",
+      "device": "0x185f57c5e07e9cf8",
+      "size_offset": "0t0",
+      "node": "TCP",
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56357->[2607:f8b0:4023:1c05::bc]:5228 (ESTABLISHED)"
     },
     {
       "command": "Spotify",
@@ -524,10 +711,10 @@
       "user": "tal",
       "fd": "21u",
       "type": "IPv6",
-      "device": "0xbb67ccad9c6b8dd2",
+      "device": "0x21e3f35c42462932",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:54356->[2620:1ec:29:1::69]:443 (ESTABLISHED)"
+      "name": "[2606:4700:110:83aa:c4b5:6b1d:4d8e:97c8]:56399->[2603:1061:14:92::1]:443 (ESTABLISHED)"
     },
     {
       "command": "Code\\x20H",
@@ -535,10 +722,10 @@
       "user": "tal",
       "fd": "22u",
       "type": "IPv4",
-      "device": "0x21e3f35c42462932",
+      "device": "0x9b861fb7f62e0c0",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "172.16.0.2:53900->13.66.138.105:443 (ESTABLISHED)"
+      "name": "172.16.0.2:56336->13.66.138.105:443 (ESTABLISHED)"
     },
     {
       "command": "Code\\x20H",
@@ -546,10 +733,10 @@
       "user": "tal",
       "fd": "25u",
       "type": "IPv4",
-      "device": "0x1a01775f1b704f82",
+      "device": "0xc42f9732545c49d3",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "172.16.0.2:53901->20.42.73.30:443 (ESTABLISHED)"
+      "name": "172.16.0.2:56337->13.69.239.68:443 (ESTABLISHED)"
     },
     {
       "command": "Code\\x20H",
@@ -561,138 +748,6 @@
       "size_offset": "0t0",
       "node": "TCP",
       "name": "127.0.0.1:27585 (LISTEN)"
-    },
-    {
-      "command": "Code\\x20H",
-      "pid": "77559",
-      "user": "tal",
-      "fd": "47u",
-      "type": "IPv4",
-      "device": "0x642ee27351bf7fb0",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "172.16.0.2:54355->13.107.5.93:443 (ESTABLISHED)"
-    },
-    {
-      "command": "claude",
-      "pid": "77604",
-      "user": "tal",
-      "fd": "9u",
-      "type": "IPv4",
-      "device": "0x1aebbaec21b27fc",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "172.16.0.2:53936->160.79.104.10:443 (ESTABLISHED)"
-    },
-    {
-      "command": "claude",
-      "pid": "77604",
-      "user": "tal",
-      "fd": "42u",
-      "type": "IPv4",
-      "device": "0xb2e0049e9b9beb56",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "172.16.0.2:53975->160.79.104.10:443 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "17u",
-      "type": "IPv6",
-      "device": "0x8a72d809725a22fa",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "*:3000 (LISTEN)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "25u",
-      "type": "IPv6",
-      "device": "0x58bf83838b6e5457",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "[::1]:3000->[::1]:54353 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "27u",
-      "type": "IPv6",
-      "device": "0xb838734311114d36",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "[::1]:3000->[::1]:54354 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "28u",
-      "type": "IPv4",
-      "device": "0x7a73e1ae2ca5677c",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:54357->127.0.0.1:8000 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "30u",
-      "type": "IPv4",
-      "device": "0x73382a887fe9eb37",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:54358->127.0.0.1:8000 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "32u",
-      "type": "IPv4",
-      "device": "0xa52171f98e83271",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:53814->127.0.0.1:53815 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "34u",
-      "type": "IPv4",
-      "device": "0x5c5d9df75e08d0cf",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:54359->127.0.0.1:8000 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "35u",
-      "type": "IPv4",
-      "device": "0x9b8e78045200e415",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:54360->127.0.0.1:8000 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "77962",
-      "user": "tal",
-      "fd": "39u",
-      "type": "IPv6",
-      "device": "0x1b5f5cbf49c91fcf",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "[::1]:3000->[::1]:54352 (ESTABLISHED)"
     },
     {
       "command": "Python",
@@ -733,10 +788,10 @@
       "user": "tal",
       "fd": "16u",
       "type": "IPv4",
-      "device": "0x900f990a92e680c2",
+      "device": "0x931c85f65917188e",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "127.0.0.1:8000->127.0.0.1:54357 (ESTABLISHED)"
+      "name": "127.0.0.1:8000->127.0.0.1:56412 (ESTABLISHED)"
     },
     {
       "command": "Python",
@@ -744,10 +799,10 @@
       "user": "tal",
       "fd": "17u",
       "type": "IPv4",
-      "device": "0xe278b5c905b82789",
+      "device": "0xcd8dccb4d6f6d30f",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "127.0.0.1:8000->127.0.0.1:54358 (ESTABLISHED)"
+      "name": "127.0.0.1:8000->127.0.0.1:56413 (ESTABLISHED)"
     },
     {
       "command": "Python",
@@ -755,10 +810,10 @@
       "user": "tal",
       "fd": "18u",
       "type": "IPv4",
-      "device": "0xcef1bce76969d5a8",
+      "device": "0x1aebbaec21b27fc",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "127.0.0.1:8000->127.0.0.1:54359 (ESTABLISHED)"
+      "name": "127.0.0.1:8000->127.0.0.1:56414 (ESTABLISHED)"
     },
     {
       "command": "Python",
@@ -766,21 +821,10 @@
       "user": "tal",
       "fd": "19u",
       "type": "IPv4",
-      "device": "0x5cea9076155e1098",
+      "device": "0x9b8e78045200e415",
       "size_offset": "0t0",
       "node": "TCP",
-      "name": "127.0.0.1:8000->127.0.0.1:54360 (ESTABLISHED)"
-    },
-    {
-      "command": "node",
-      "pid": "78043",
-      "user": "tal",
-      "fd": "12u",
-      "type": "IPv4",
-      "device": "0xccd860db772c47e7",
-      "size_offset": "0t0",
-      "node": "TCP",
-      "name": "127.0.0.1:53815->127.0.0.1:53814 (ESTABLISHED)"
+      "name": "127.0.0.1:8000->127.0.0.1:56415 (ESTABLISHED)"
     },
     {
       "command": "Code\\x20H",

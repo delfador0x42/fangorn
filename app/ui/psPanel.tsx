@@ -1,12 +1,12 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { Draggable } from "./DraggablePanel";
-import { Process } from "./types";
+import { Process } from "@/app/lib/api";
 
 interface ProcessPanelProps {
   processes: Process[];
   manPageNames: string[];
+  onSelectProcess: (name: string) => void;
 }
 
 /**
@@ -18,13 +18,12 @@ function getBasename(cmd: string): string {
   return parts[parts.length - 1];
 }
 
-export default function ProcessPanel({ processes, manPageNames }: ProcessPanelProps) {
-  const router = useRouter();
+export default function ProcessPanel({ processes, manPageNames, onSelectProcess }: ProcessPanelProps) {
   const manPageSet = new Set(manPageNames);
 
   const handleRowClick = (cmd: string) => {
     const basename = getBasename(cmd);
-    router.push(`/process/${encodeURIComponent(basename)}`);
+    onSelectProcess(basename);
   };
 
   const getRowClassName = (proc: Process): string => {
